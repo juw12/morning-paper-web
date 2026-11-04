@@ -1,0 +1,13 @@
+name: keep cloud awake
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: daily database touch (free plan pauses after 7 idle days)
+        run: |
+          curl -fsS "https://onlzfnamxrtdarzstefw.supabase.co/rest/v1/user_data?select=user_id&limit=1" \
+            -H "apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9ubHpmbmFteHJ0ZGFyenN0ZWZ3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTM3NzIyNDAsImV4cCI6MjEwOTM0ODI0MH0.VyK33bcrkIWTh9eOCKGvrUh02NNXAyn4ui31VjrJnP0" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9ubHpmbmFteHJ0ZGFyenN0ZWZ3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTM3NzIyNDAsImV4cCI6MjEwOTM0ODI0MH0.VyK33bcrkIWTh9eOCKGvrUh02NNXAyn4ui31VjrJnP0"
