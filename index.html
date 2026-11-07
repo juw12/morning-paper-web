@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Morning Paper · Saturday, November 7, 2026</title>
-<meta name="description" content="Leading today: SpaceX launches mystery mission for US Space Force in gorgeous sunset liftoff from California (photos).">
+<meta name="description" content="Leading today: Tech companies face mounting child safety lawsuits while pushing AI into schools.">
 <meta property="og:title" content="The Morning Paper · Saturday, November 7, 2026">
-<meta property="og:description" content="Leading today: SpaceX launches mystery mission for US Space Force in gorgeous sunset liftoff from California (photos).">
+<meta property="og:description" content="Leading today: Tech companies face mounting child safety lawsuits while pushing AI into schools.">
 <meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0e0f11" media="(prefers-color-scheme: dark)">
 
@@ -217,6 +217,34 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
 .brief-src{font-size:13.5px;color:var(--ink2)}
 .front-main .lead + .cards3{padding-top:22px;border-top:1px solid var(--line2)}
 @media (max-width:640px){.icon,.newsbtn{width:44px;height:44px;min-height:44px}.bar-in{gap:6px}}
+/* hone r4: one type scale - labels 13px caps, UI/meta 14.5px, darker secondary ink */
+body .tabs a{font-size:14.5px;color:var(--ink2)}
+body .tabs a.on{color:var(--ink)}
+body .tabs-more{font-size:14.5px}
+body .kicker{font-size:13px;letter-spacing:.07em}
+body .ai-badge{font-size:13px}
+body .brief-note{font-size:13.5px;color:var(--ink2)}
+body .eyebrow,body .watch h3{font-size:13px;color:var(--ink2)}
+body .qname{font-size:14px}
+body .qpct{font-size:13.5px}
+body .watch table{font-size:14.5px}
+body td.num{font-size:14px}
+body .newsbtn,body .nb-t{font-size:14px}
+body .search kbd{font-size:13px}
+body .block-head p{font-size:14.5px;color:var(--ink2)}
+body .meta .cov{font-size:14px}
+@media (max-width:640px){body .tabs a{font-size:15px;padding:14px 12px}body .tabs-more{font-size:15px}}
+/* hone r4b: secondary stories as newspaper columns (no boxes), lead stays the only card */
+.front-main .lead + .cards3{border-top:0;padding-top:0;margin-top:26px}
+.front-main .cards3.textonly{gap:0}
+.front-main .cards3.textonly .card{background:transparent;border:0;border-radius:0;border-top:3px solid var(--ink);padding:4px 20px 6px;border-left:1px solid var(--line2);overflow:visible}
+.front-main .cards3.textonly .card:first-child{border-left:0;padding-left:0}
+.front-main .cards3.textonly .card:last-child{padding-right:0}
+.front-main .cards3.textonly .card>.kicker,.front-main .cards3.textonly .card>h3,.front-main .cards3.textonly .card>.dek,.front-main .cards3.textonly .card>.why,.front-main .cards3.textonly .card>.meta{margin-left:0;margin-right:0}
+.card .kicker{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:640px){.front-main .cards3.textonly{gap:22px}.front-main .cards3.textonly .card{border-left:0;padding:4px 0 0}}
+/* v16: stats segments never break mid-phrase */
+.stats .stat-seg{white-space:nowrap}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 @media print{.bar,.subscribe,.related,.foot{display:none}body{background:#fff}.lead,.card,.brief,.more-top,.watch,.qcard{border-color:#ccc}}
 
@@ -401,7 +429,7 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
 <header class="bar">
   <div class="bar-in">
     <h1 class="brand-h"><a class="brand" href="#top"><span class="mark" aria-hidden="true">TM</span><span class="wordmark">The Morning Paper</span></a></h1>
-    <div class="dateline"><b>Saturday, November 7, 2026</b><span>Morning Edition · Updated 18:29</span></div>
+    <div class="dateline"><b>Saturday, November 7, 2026</b><span>Morning Edition · Updated 19:12</span></div>
 <button class="newsbtn" id="mp-refresh" type="button" data-t="newsrefresh">&#x21bb;<span class="nb-t"> Refresh news</span></button><a class="newsbtn" id="mp-pf" href="#portfolio" style="text-decoration:none">&#x1F4BC;<span class="nb-t"> My portfolio</span></a>
     <label class="search"><span class="vh">Search stories</span>
       <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
@@ -418,7 +446,7 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
 <main class="wrap" id="top">
   <div class="hello">
     <p class="tagline">Markets, AI, tech &amp; space - curated every morning </p>
-    <p class="stats"><b>31</b> stories · <b>14</b> outlets · <b>296</b> headlines scanned · <b>13</b> multi-source</p>
+    <p class="stats"><span class="stat-seg"><b>31</b> stories</span> · <span class="stat-seg"><b>15</b> outlets</span> · <span class="stat-seg"><b>300</b> headlines scanned</span> · <span class="stat-seg"><b>13</b> multi-source</span></p>
   </div>
   <p class="noresults" id="noresults" hidden>No stories match your search.</p>
 
@@ -426,18 +454,25 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
     <div class="front-grid">
       <div class="front-main">
       
-<article class="story lead" data-text="spacex launches mystery mission for us space force in gorgeous sunset liftoff from california (photos) spacex just launched a classified mission for the u.s. military. a falcon 9 rocket lifted off from california&#x27;s vandenberg space force base this evening (nov. 6) at 7:48 p.m. est (4:48 p.m. local california time; 0048 gmt on nov. 7)... space.com spacex rocket falcon">
-  <a class="story-link" href="https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-classified-mission-space-force-ussf-432" target="_blank" rel="noopener"><div class="lead-media"><img src="https://cdn.mos.cms.futurecdn.net/q9Z9sqFyvcTuBggqZ6hKgV-1920-80.jpg" alt="" loading="eager" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()"></div></a>
+<article class="story lead" data-text="tech companies face mounting child safety lawsuits while pushing ai into schools lawsuits against snap, meta and google are creating headwinds for tech companies just as artificial intelligence tools expand into classrooms. cnbc google meta">
+  <a class="story-link" href="https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html" target="_blank" rel="noopener"><div class="lead-media placeholder" aria-hidden="true"><span>C</span></div></a>
   <div class="lead-body">
-    <p class="kicker">Space &amp; Aircraft · SpaceX</p>
-    <h2><a class="story-link" href="https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-classified-mission-space-force-ussf-432" target="_blank" rel="noopener">SpaceX launches mystery mission for US Space Force in gorgeous sunset liftoff from California (photos)</a></h2>
-    <p class="dek">SpaceX just launched a classified mission for the U.S. military. A Falcon 9 rocket lifted off from California&#x27;s Vandenberg Space Force Base this evening (Nov. 6) at 7:48 p.m. EST (4:48 p.m. local California time; 0048 GMT on Nov. 7)...</p>
+    <p class="kicker">Big US Tech · Google</p>
+    <h2><a class="story-link" href="https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html" target="_blank" rel="noopener">Tech companies face mounting child safety lawsuits while pushing AI into schools</a></h2>
+    <p class="dek">Lawsuits against Snap, Meta and Google are creating headwinds for tech companies just as artificial intelligence tools expand into classrooms.</p>
     
-    <div class="meta"><span class="src">Space.com</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T01:41:58+00:00">9h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 2 outlets">2 sources</span></div>
-    <details class="related"><summary>Also reported by 1 more</summary><ul><li><a href="https://spaceflightnow.com/2026/11/06/falcon-9-to-launch-from-california-on-classified-mission-for-u-s-space-force/" target="_blank" rel="noopener"><b>Spaceflight Now</b> Falcon 9 launches from California on classified mission for U.S. Space Force</a></li></ul></details>
+    <div class="meta"><span class="src">CNBC</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T12:00:01+00:00">12m ago</time></div>
+    
   </div>
 </article>
       <div class="cards3 textonly">
+<article class="story card" data-text="spacex launches mystery mission for us space force in gorgeous sunset liftoff from california (photos) spacex just launched a classified mission for the u.s. military. a falcon 9 rocket lifted off from california&#x27;s vandenberg space force base this evening (nov. 6) at 7:48 p.m. est (4:48 p.m. local california time; 0048 gmt on nov. 7)... space.com spacex rocket falcon">
+  <a class="story-link" href="https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-classified-mission-space-force-ussf-432" target="_blank" rel="noopener"></a>
+  <p class="kicker">Space &amp; Aircraft · SpaceX</p>
+  <h3><a class="story-link" href="https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-classified-mission-space-force-ussf-432" target="_blank" rel="noopener">SpaceX launches mystery mission for US Space Force in gorgeous sunset liftoff from California (photos)</a></h3>
+  <p class="dek">SpaceX just launched a classified mission for the U.S. military. A Falcon 9 rocket lifted off from California&#x27;s Vandenberg Space Force Base this evening (Nov. 6) at 7:48 p.m. EST (4:48 p.m. local California time; 0048 GMT on Nov. 7)...</p>
+  <div class="meta"><span class="src">Space.com</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T01:41:58+00:00">10h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 2 outlets">2 sources</span></div>
+</article>
 <article class="story card" data-text="cramer’s week ahead: ai data center stocks face another hurdle and so does the fed coreweave and nebius earnings, alongside key inflation reports that could shape the fed&#x27;s next interest rate decision, are the focus. cnbc fed rate inflation">
   <a class="story-link" href="https://www.cnbc.com/2026/11/06/cramer-coreweave-nebius-earnings.html" target="_blank" rel="noopener"></a>
   <p class="kicker">Markets · Fed</p>
@@ -450,61 +485,18 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
   <p class="kicker">AI &amp; Chips · OpenAI</p>
   <h3><a class="story-link" href="https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation" target="_blank" rel="noopener">OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO</a></h3>
   <p class="dek">OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world&#x27;s most valuable companies, not long after raising $122 billion from investors...</p>
-  <div class="meta"><span class="src">The Verge</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T23:46:18+00:00">11h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 2 outlets">2 sources</span></div>
-</article>
-<article class="story card" data-text="tesla to wind down cybertruck production in texas next year to ramp cybercab, musk says the cybertruck and its polarizing design gained a niche following, but it did not achieve mass-market sales and tesla has issued several voluntary recalls. cnbc tesla">
-  <a class="story-link" href="https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html" target="_blank" rel="noopener"></a>
-  <p class="kicker">Big US Tech · Tesla</p>
-  <h3><a class="story-link" href="https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html" target="_blank" rel="noopener">Tesla to wind down Cybertruck production in Texas next year to ramp Cybercab, Musk says</a></h3>
-  <p class="dek">The Cybertruck and its polarizing design gained a niche following, but it did not achieve mass-market sales and Tesla has issued several voluntary recalls.</p>
-  <div class="meta"><span class="src">CNBC</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T15:06:11+00:00">20h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 3 outlets">3 sources</span></div>
+  <div class="meta"><span class="src">The Verge</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T23:46:18+00:00">12h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 2 outlets">2 sources</span></div>
 </article></div>
       </div>
       
 <aside class="brief" id="brief" aria-labelledby="brief-title">
-  <div class="brief-head"><h2 id="brief-title">The Brief</h2><span class="ai-badge plain">Top headlines</span></div>
-  <p class="brief-lede">Leading today: SpaceX launches mystery mission for US Space Force in gorgeous sunset liftoff from California (photos).</p>
-  <ol class="brief-list"><li><p>Cramer’s week ahead: AI data center stocks face another hurdle and so does the Fed. CoreWeave and Nebius earnings, alongside key inflation reports that could shape the Fed&#x27;s next interest rate decision, are the focus. <a href="https://www.cnbc.com/2026/11/06/cramer-coreweave-nebius-earnings.html" target="_blank" rel="noopener" class="brief-src">CNBC ↗</a></p></li><li><p>OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO. OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. <a href="https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation" target="_blank" rel="noopener" class="brief-src">The Verge ↗</a></p></li><li><p>Tesla to wind down Cybertruck production in Texas next year to ramp Cybercab, Musk says. The Cybertruck and its polarizing design gained a niche following, but it did not achieve mass-market sales and Tesla has issued several… <a href="https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html" target="_blank" rel="noopener" class="brief-src">CNBC ↗</a></p></li><li><p>AST SpaceMobile unveils $1.3 billion engine deal with Firefly Aerospace to power new heavy-lift rocket. The company behind the Bluebird direct-to-cell satellite constellation said the addition of its own heavy-lift rocket is the… <a href="https://spaceflightnow.com/2026/11/07/ast-spacemobile-unveils-1-3-billion-engine-deal-with-firefly-aerospace-to-power-new-heavy-lift-rocket/" target="_blank" rel="noopener" class="brief-src">Spaceflight Now ↗</a></p></li></ol>
-  <p class="brief-note">The day&#x27;s most-reported stories, ranked across 6 outlets.</p>
+  <div class="brief-head"><h2 id="brief-title">The Brief</h2><span class="ai-badge plain">Also today</span></div>
+  
+  <ol class="brief-list"><li><p>AST SpaceMobile unveils $1.3 billion engine deal with Firefly Aerospace to power new heavy-lift rocket. The company behind the Bluebird direct-to-cell satellite constellation said the addition of its own heavy-lift rocket is the… <a href="https://spaceflightnow.com/2026/11/07/ast-spacemobile-unveils-1-3-billion-engine-deal-with-firefly-aerospace-to-power-new-heavy-lift-rocket/" target="_blank" rel="noopener" class="brief-src">Spaceflight Now ↗</a></p></li><li><p>Starship Flight 15, a dual catch attempt, awaits FAA green light. Booster 22 and Ship 42 are in final checkouts for a no-earlier-than 13 November launch… <a href="https://www.nasaspaceflight.com/2026/11/starship-flight-15-awaits-faa/" target="_blank" rel="noopener" class="brief-src">NASASpaceflight ↗</a></p></li><li><p>China reportedly recruited AI exec to spy on Jensen Huang. China&#x27;s intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. <a href="https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy" target="_blank" rel="noopener" class="brief-src">The Verge ↗</a></p></li><li><p>&#x27;I think we will prevail&#x27;: NASA chief Jared Isaacman on Artemis, China and the new moon race (exclusive). NASA Administrator Jared Isaacman is serious about launching &quot;big rockets&quot; to the moon every single year for the agency&#x27;s Artemis program. <a href="https://www.space.com/space-exploration/i-think-we-will-prevail-nasa-chief-jared-isaacman-on-artemis-china-and-the-new-moon-race-exclusive" target="_blank" rel="noopener" class="brief-src">Space.com ↗</a></p></li></ol>
+  <p class="brief-note">More of the day&#x27;s most-reported stories, beyond the front page, ranked across 6 outlets.</p>
 </aside>
     </div>
-    <div class="more-top"><h3 class="eyebrow">Also on the front page</h3>
-<article class="story row" data-text="ast spacemobile unveils $1.3 billion engine deal with firefly aerospace to power new heavy-lift rocket the company behind the bluebird direct-to-cell satellite constellation said the addition of its own heavy-lift rocket is the final piece of its plans for vertical integration. spaceflight now rocket satellite">
-  <span class="num">05</span>
-  <div class="row-body">
-    <h4><a class="story-link" href="https://spaceflightnow.com/2026/11/07/ast-spacemobile-unveils-1-3-billion-engine-deal-with-firefly-aerospace-to-power-new-heavy-lift-rocket/" target="_blank" rel="noopener">AST SpaceMobile unveils $1.3 billion engine deal with Firefly Aerospace to power new heavy-lift rocket</a></h4>
-    <p class="dek clamp2">The company behind the Bluebird direct-to-cell satellite constellation said the addition of its own heavy-lift rocket is the final piece of its plans for vertical integration.</p>
-    <div class="meta"><span class="src">Spaceflight Now</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T02:18:04+00:00">9h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 2 outlets">2 sources</span></div>
-  </div>
-  
-</article>
-<article class="story row" data-text="starship flight 15, a dual catch attempt, awaits faa green light booster 22 and ship 42 are in final checkouts for a no-earlier-than 13 november launch… nasaspaceflight starship launch">
-  <span class="num">06</span>
-  <div class="row-body">
-    <h4><a class="story-link" href="https://www.nasaspaceflight.com/2026/11/starship-flight-15-awaits-faa/" target="_blank" rel="noopener">Starship Flight 15, a dual catch attempt, awaits FAA green light</a></h4>
-    <p class="dek clamp2">Booster 22 and Ship 42 are in final checkouts for a no-earlier-than 13 November launch…</p>
-    <div class="meta"><span class="src">NASASpaceflight</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T15:31:51+00:00">19h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 2 outlets">2 sources</span></div>
-  </div>
-  
-</article>
-<article class="story row" data-text="china reportedly recruited ai exec to spy on jensen huang china&#x27;s intelligence agency recruited megaspeed executive alice huang to spy on nvidia ceo jensen huang, according to the new york times. the ministry of state security (mss) enlisted her to glean information about american ai chips and... the verge nvidia ai">
-  <span class="num">07</span>
-  <div class="row-body">
-    <h4><a class="story-link" href="https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy" target="_blank" rel="noopener">China reportedly recruited AI exec to spy on Jensen Huang</a></h4>
-    <p class="dek clamp2">China&#x27;s intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and...</p>
-    <div class="meta"><span class="src">The Verge</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T23:00:44+00:00">12h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 2 outlets">2 sources</span></div>
-  </div>
-  
-</article>
-<article class="story row" data-text="&#x27;i think we will prevail&#x27;: nasa chief jared isaacman on artemis, china and the new moon race (exclusive) nasa administrator jared isaacman is serious about launching &quot;big rockets&quot; to the moon every single year for the agency&#x27;s artemis program. and the new space race with china is fueling that ambition. &quot;i feel good. i feel like we are... space.com nasa space moon">
-  <span class="num">08</span>
-  <div class="row-body">
-    <h4><a class="story-link" href="https://www.space.com/space-exploration/i-think-we-will-prevail-nasa-chief-jared-isaacman-on-artemis-china-and-the-new-moon-race-exclusive" target="_blank" rel="noopener">&#x27;I think we will prevail&#x27;: NASA chief Jared Isaacman on Artemis, China and the new moon race (exclusive)</a></h4>
-    <p class="dek clamp2">NASA Administrator Jared Isaacman is serious about launching &quot;big rockets&quot; to the moon every single year for the agency&#x27;s Artemis program. And the new space race with China is fueling that ambition. &quot;I feel good. I feel like we are...</p>
-    <div class="meta"><span class="src">Space.com</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T11:00:00+00:00">29m ago</time></div>
-  </div>
-  
-</article></div>
+    
   </section>
 
   
@@ -675,7 +667,7 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
 </section>
   
 <section class="block analysis" id="analysis" aria-labelledby="analysis-title">
-  <header class="block-head"><h2 id="analysis-title">Stock Analysis</h2><p>Live chart, trading signals &amp; long-term value for your watchlist · analysis updated 2026-11-07 18:31</p></header>
+  <header class="block-head"><h2 id="analysis-title">Stock Analysis</h2><p>Live chart, trading signals &amp; long-term value for your watchlist · analysis updated 2026-11-07 19:13</p></header>
   <details class="guide" id="learn"><summary><span class="gbadge">New to investing?</span><b>Learn: how to read this section</b><span class="gsub">5-step routine + plain-English glossary of every metric</span></summary><div class="gbody"><div class="gintro"><h4>A 5-minute daily routine</h4><ol class='gsteps'><li><b>Check the market regime</b> (top cards). Uptrend = conditions favour buying; downtrend = be defensive.</li><li><b>Long-term: shortlist from 'Long-term value'</b>. Look for <i>Quality at a fair price</i> (top-left of the map), open the row and read 'What this means'.</li><li><b>Timing: look at the Trading desk</b> for the same ticker. Better entries usually come near support or on a pullback in an uptrend, not after a big overbought spike.</li><li><b>Use the Live chart</b> to see today's move before acting, and set where you'd be wrong (a stop below support).</li><li><b>Size small</b>: risk 1-2% of your money per idea, spread across several stocks, and keep learning one term a day.</li></ol><p class="gnote">Tip: hover any dotted-underlined label for a quick definition. Everything here is education, not a recommendation.</p></div><div class="ggrid"><div class="ggroup"><h4>Start here</h4><details class="gterm" id="g-trading_vs_investing"><summary><b>Trading vs. investing</b><span>Trading = profit from price moves over days/weeks. Investing = own good businesses for years.</span></summary><p><em>What it is.</em> Trading tries to profit from price swings over days to weeks, so it leans on the chart (trend, momentum, support/resistance). Investing means owning a share of a business for years, so it leans on the business itself (profits, growth, debt) and the price you pay (valuation).</p><p><em>How to read it.</em> Use the Trading desk to time entries and exits; use Long-term value to decide WHAT is worth owning. Many people combine them: pick quality businesses, then buy on pullbacks.</p><p class="gwatch"><em>Watch out.</em> Short-term trading is hard; most beginners do better starting with long-term investing in small amounts.</p></details><details class="gterm" id="g-regime"><summary><b>Market regime</b><span>Is the whole market in an uptrend or downtrend? Most stocks follow the index.</span></summary><p><em>What it is.</em> The overall direction of the market, judged here by the index (S&amp;P 500, IHSG) versus its 200-day average.</p><p><em>How to read it.</em> Index above a rising 200-day average = &#x27;risk-on&#x27;, buying dips tends to work. Below = &#x27;defensive&#x27;: smaller positions, more cash, wait for the index to reclaim its average.</p><p class="gwatch"><em>Watch out.</em> Roughly 3 out of 4 stocks move with the market, so even a great stock struggles in a falling market.</p></details><details class="gterm" id="g-risk"><summary><b>Risk management</b><span>Decide how much you can lose BEFORE you buy. Size positions so one mistake can&#x27;t hurt much.</span></summary><p><em>What it is.</em> Rules that keep losses small: position size, stop-loss, and diversification.</p><p><em>How to read it.</em> A common rule: risk at most 1-2% of your account on one trade (distance to your stop x shares). Hold several unrelated stocks. Only invest money you won&#x27;t need for years.</p><p class="gwatch"><em>Watch out.</em> Averaging down on a falling stock without a plan is the most common way beginners lose big.</p></details></div><div class="ggroup"><h4>Trading</h4><details class="gterm" id="g-sma"><summary><b>Moving averages (20/50/200-day)</b><span>Average closing price of the last 20/50/200 days. Price above = trend up; below = trend down.</span></summary><p><em>What it is.</em> The average closing price over the last N trading days, redrawn every day. It smooths out noise.</p><p><em>How to read it.</em> 20-day = short-term trend, 50-day = medium, 200-day = long-term. Price above all three and 20 &gt; 50 &gt; 200 is a healthy uptrend. Averages often act as support in uptrends.</p><p class="gwatch"><em>Watch out.</em> Averages lag: they confirm a trend after it starts, they don&#x27;t predict it.</p></details><details class="gterm" id="g-trend"><summary><b>Trend label</b><span>Uptrend / Downtrend / Correcting / Recovering / Turning up / Weakening, from price vs. the 50 &amp; 200-day averages.</span></summary><p><em>What it is.</em> Our one-word summary of where price sits relative to its 50 and 200-day averages.</p><p><em>How to read it.</em> Uptrend: price &gt; 50-day &gt; 200-day. Downtrend: the reverse. Correcting: still above the 200-day but fell below the 50-day (a dip in a bigger uptrend). Recovering: below the 200-day but bounced above the 50-day. Turning up: above both while the 50-day is still under the 200-day. Weakening: below both while the 50-day is still above the 200-day.</p><p class="gwatch"><em>Watch out.</em> Trends can flip quickly around earnings or big news.</p></details><details class="gterm" id="g-rsi"><summary><b>RSI (Relative Strength Index, 14)</b><span>0-100 speed gauge. Above 70 = overbought (ran up fast), below 30 = oversold (fell fast).</span></summary><p><em>What it is.</em> Compares the size of recent up-days with recent down-days over 14 sessions, on a 0-100 scale.</p><p><em>How to read it.</em> Above 70: rose very fast, may pause or pull back. Below 30: fell very fast, a bounce is common. 40-60 is neutral. In strong uptrends RSI often stays 50-80; in downtrends 20-50.</p><p class="gwatch"><em>Watch out.</em> &#x27;Oversold&#x27; can stay oversold in a crash. Use RSI with the trend, not against it.</p></details><details class="gterm" id="g-macd"><summary><b>MACD</b><span>Momentum indicator. Positive/rising = momentum building up; negative = momentum fading.</span></summary><p><em>What it is.</em> Difference between a fast (12-day) and slow (26-day) exponential average, compared with its own 9-day average (the signal line).</p><p><em>How to read it.</em> MACD crossing above its signal line (&#x27;bullish cross&#x27;) = momentum turning up; crossing below = turning down. We show &#x27;positive&#x27; when MACD is above its signal line.</p><p class="gwatch"><em>Watch out.</em> Gives many false signals in sideways markets.</p></details><details class="gterm" id="g-support_resistance"><summary><b>Support &amp; resistance</b><span>Support = recent floor where buyers stepped in. Resistance = recent ceiling where sellers did.</span></summary><p><em>What it is.</em> Here: the lowest low (support) and highest high (resistance) of the previous 20 trading days.</p><p><em>How to read it.</em> Traders buy near support and take profit near resistance. A close above resistance is a &#x27;breakout&#x27;; below support is a &#x27;breakdown&#x27;. A broken level often flips role (old resistance becomes support).</p><p class="gwatch"><em>Watch out.</em> Levels are zones, not exact prices. Many traders place stop-losses just below support.</p></details><details class="gterm" id="g-atr"><summary><b>Typical daily range (ATR %)</b><span>How much the stock usually moves in a day, as % of price. Higher = more volatile, wider stops needed.</span></summary><p><em>What it is.</em> Average True Range over 14 days divided by price: the size of a normal day&#x27;s swing.</p><p><em>How to read it.</em> 1-2% = calm (big caps, banks). 3-5% = lively (tech). 5%+ = very volatile. A stop-loss closer than about 1-2x ATR will often be hit by normal noise.</p><p class="gwatch"><em>Watch out.</em> Volatility jumps around earnings and in falling markets.</p></details><details class="gterm" id="g-volume"><summary><b>Volume</b><span>Number of shares traded. Moves on high volume (vs. average) are more meaningful.</span></summary><p><em>What it is.</em> Shares traded per bar. We compare today with the 20-day average (&#x27;volume x avg&#x27;).</p><p><em>How to read it.</em> A breakout on 1.5-2x normal volume is more trustworthy; a rally on thin volume is weaker. &#x27;Volume spike&#x27; = at least 2x normal, often news-driven.</p><p class="gwatch"><em>Watch out.</em> Volume early in the trading day is naturally lower than the full-day average.</p></details><details class="gterm" id="g-range52"><summary><b>52-week range</b><span>Where today&#x27;s price sits between the 1-year low (0%) and high (100%).</span></summary><p><em>What it is.</em> The lowest and highest price of the last year, and today&#x27;s position between them.</p><p><em>How to read it.</em> Near 100%: strong stock, near highs (momentum). Near 0%: weak or out of favour (possible value, possible trouble).</p><p class="gwatch"><em>Watch out.</em> A stock near its low is not automatically cheap - check the business (Long-term value).</p></details><details class="gterm" id="g-momentum"><summary><b>Momentum score (-100 to +100)</b><span>Our summary: price vs. 20/50/200-day averages + MACD + 1-month move. +35 or more = bullish, -35 or less = bearish.</span></summary><p><em>What it is.</em> Points for price above each average (+15/+20/+25), MACD positive (+15), and the 1-month return (up to +/-15); small adjustments when RSI is extreme.</p><p><em>How to read it.</em> Use it to sort: high scores are stocks the market is currently rewarding; low scores are being sold.</p><p class="gwatch"><em>Watch out.</em> It describes the present, it does not forecast.</p></details><details class="gterm" id="g-signals"><summary><b>Signals</b><span>Events worth a look today: breakout, breakdown, golden/death cross, overbought/oversold, MACD cross, pullback.</span></summary><p><em>What it is.</em> Breakout / Breakdown: closed above the 20-day high / below the 20-day low. Golden cross: 50-day average crossed above the 200-day (long-term bullish); Death cross: the reverse. Overbought/Oversold: RSI above 70 / below 30. Pullback in uptrend: an uptrending stock dipped to its 20/50-day average with a calm RSI - a classic &#x27;buy the dip&#x27; setup. Volume spike: 2x normal volume.</p><p><em>How to read it.</em> A signal is a reason to look closer, not an instruction to buy or sell. Signals that agree with the market regime work more often.</p><p class="gwatch"><em>Watch out.</em> Always decide where you&#x27;d be wrong (stop) before acting on a signal.</p></details></div><div class="ggroup"><h4>Long-term value</h4><details class="gterm" id="g-pe"><summary><b>P/E (price / earnings)</b><span>Price you pay for each $1 of yearly profit. Lower = cheaper. Market average is often ~15-25.</span></summary><p><em>What it is.</em> Share price divided by earnings per share. Trailing P/E uses the last 12 months; forward P/E uses analysts&#x27; estimate for the next 12 months.</p><p><em>How to read it.</em> A P/E of 20 means paying 20 years of current profit. Under ~15 is usually &#x27;cheap&#x27;, over ~30 &#x27;expensive&#x27; - but fast growers deserve higher P/Es, and banks/commodities usually trade lower.</p><p class="gwatch"><em>Watch out.</em> Low P/E can mean profits are about to fall (value trap). Compare with peers and the stock&#x27;s own history.</p></details><details class="gterm" id="g-peg"><summary><b>PEG ratio</b><span>P/E divided by growth rate. Around 1 = fair for its growth; below 1 = cheap for its growth.</span></summary><p><em>What it is.</em> P/E divided by expected annual earnings growth (in %).</p><p><em>How to read it.</em> Lets you compare a fast grower with a slow one. Under 1 is attractive, 1-2 fair, above 2-3 pricey.</p><p class="gwatch"><em>Watch out.</em> Depends on growth forecasts, which are often too optimistic.</p></details><details class="gterm" id="g-pb"><summary><b>P/B (price / book)</b><span>Price vs. the company&#x27;s net assets. Most useful for banks and asset-heavy firms (~1-2 is typical).</span></summary><p><em>What it is.</em> Market value divided by book value (assets minus liabilities).</p><p><em>How to read it.</em> Banks around 1-2x book are common; far above that needs very high ROE to justify. Tech companies often trade at high P/B because their value is in intangibles.</p><p class="gwatch"><em>Watch out.</em> Not meaningful for companies with little or negative book value.</p></details><details class="gterm" id="g-roe"><summary><b>ROE (return on equity)</b><span>Profit earned per $1 of shareholders&#x27; money. 15%+ is good, 20%+ excellent.</span></summary><p><em>What it is.</em> Net income divided by shareholders&#x27; equity - how efficiently the company turns your capital into profit.</p><p><em>How to read it.</em> Consistently above 15-20% often signals a strong business (&#x27;moat&#x27;).</p><p class="gwatch"><em>Watch out.</em> Heavy debt or share buybacks can inflate ROE (very high values like 100%+ usually mean small equity).</p></details><details class="gterm" id="g-margin"><summary><b>Net profit margin</b><span>Share of each sale kept as profit. Higher = more pricing power.</span></summary><p><em>What it is.</em> Net income divided by revenue.</p><p><em>How to read it.</em> Software/chips can earn 20-50%+; retailers 2-5%. Compare within an industry; rising margins are a good sign.</p><p class="gwatch"><em>Watch out.</em> One-off gains or losses can distort a single year.</p></details><details class="gterm" id="g-growth"><summary><b>Revenue &amp; earnings growth</b><span>How fast sales and profits are growing year-on-year.</span></summary><p><em>What it is.</em> Latest quarter vs. the same quarter a year earlier.</p><p><em>How to read it.</em> Steady double-digit growth plus high margins is the profile of long-term compounders.</p><p class="gwatch"><em>Watch out.</em> One quarter is noisy; look for consistency.</p></details><details class="gterm" id="g-debt"><summary><b>Debt / equity</b><span>Borrowing vs. shareholders&#x27; money. Under ~0.5x is conservative; above ~2x is risky (except banks).</span></summary><p><em>What it is.</em> Total debt divided by shareholders&#x27; equity.</p><p><em>How to read it.</em> Low debt means the company survives bad years without diluting or selling assets.</p><p class="gwatch"><em>Watch out.</em> Banks are financed with deposits, so this ratio doesn&#x27;t apply to them.</p></details><details class="gterm" id="g-fcf_yield"><summary><b>Free-cash-flow yield</b><span>Cash the business generates per year vs. its market value. 5%+ is attractive.</span></summary><p><em>What it is.</em> Free cash flow (operating cash minus capital spending) divided by market capitalisation.</p><p><em>How to read it.</em> Like an &#x27;earnings yield&#x27; in real cash. It&#x27;s what can fund dividends, buybacks and growth.</p><p class="gwatch"><em>Watch out.</em> Big investment years temporarily lower FCF. Skipped for ADRs reporting in another currency.</p></details><details class="gterm" id="g-dividend"><summary><b>Dividend yield</b><span>Yearly cash dividend as % of price. 2-5% is typical for mature companies.</span></summary><p><em>What it is.</em> Annual dividends per share divided by the share price.</p><p><em>How to read it.</em> Good for income investors. Growth companies often pay little and reinvest instead.</p><p class="gwatch"><em>Watch out.</em> A very high yield (8%+) often comes from a falling price and may be cut.</p></details><details class="gterm" id="g-analyst"><summary><b>Analyst target</b><span>Average 12-month price target from analysts, vs. today&#x27;s price.</span></summary><p><em>What it is.</em> Mean of professional analysts&#x27; 12-month price targets.</p><p><em>How to read it.</em> A useful sentiment check: +20% or more means analysts see clear upside.</p><p class="gwatch"><em>Watch out.</em> Targets follow the price and are often too optimistic; treat as one input only.</p></details><details class="gterm" id="g-cagr"><summary><b>5-year return per year (CAGR)</b><span>Average yearly total return over ~5 years, dividends included. The S&amp;P 500 averages ~10%/yr long-term.</span></summary><p><em>What it is.</em> Compound annual growth rate of the dividend-adjusted price.</p><p><em>How to read it.</em> Shows what holding the stock actually delivered. Compare with the index.</p><p class="gwatch"><em>Watch out.</em> Past returns don&#x27;t guarantee future ones; a stock that already ran a lot may be expensive now.</p></details><details class="gterm" id="g-drawdown"><summary><b>Distance from high</b><span>How far the price is below its 5-year peak. Quality stocks far below their high can be opportunities.</span></summary><p><em>What it is.</em> Today&#x27;s price vs. the highest close of the last ~5 years.</p><p><em>How to read it.</em> Investors look for strong businesses temporarily 20-40% off their highs.</p><p class="gwatch"><em>Watch out.</em> Make sure the business, not just the price, is still healthy.</p></details><details class="gterm" id="g-quality"><summary><b>Quality score (0-100)</b><span>How good the BUSINESS is: ROE, margins, growth and debt combined.</span></summary><p><em>What it is.</em> Weighted mix: ROE (30%), net margin (20%), revenue growth (20%), earnings growth (10%), low debt (20%).</p><p><em>How to read it.</em> 60+ = strong business; below 40 = weak or struggling.</p><p class="gwatch"><em>Watch out.</em> Based on recent numbers only; read the company story too.</p></details><details class="gterm" id="g-valuation"><summary><b>Valuation score (0-100)</b><span>How cheap the PRICE is vs. fundamentals: P/E, PEG, FCF yield, P/B, analyst upside, dividend.</span></summary><p><em>What it is.</em> Weighted mix: forward P/E (27%), PEG (18%), FCF yield (18%), P/B (9%), analyst upside (18%), dividend (9%).</p><p><em>How to read it.</em> 55+ = reasonably priced or cheap; below 35 = expensive.</p><p class="gwatch"><em>Watch out.</em> Cheap stocks are often cheap for a reason - pair with the quality score.</p></details><details class="gterm" id="g-verdict"><summary><b>Verdict</b><span>Quality x valuation in one phrase. &#x27;Quality at a fair price&#x27; is the classic long-term sweet spot.</span></summary><p><em>What it is.</em> Quality 60+ and valuation 55+ = Quality at a fair price; quality 60+ only = Great business, priced richly; valuation 55+ only = Cheap - check why; valuation under 35 = Expensive vs fundamentals.</p><p><em>How to read it.</em> A shortlist for further research, not a buy list.</p><p class="gwatch"><em>Watch out.</em> Read the latest results and news before acting.</p></details></div></div></div></details>
   <div class="regime"><div class="rg up"><b data-t="regime" class="hastip">S&amp;P 500</b><span class="rg-px">7,376.86 <em class="up">+0.31%</em></span><p>S&amp;P 500 is 0.7% above its 200-day average: mixed trend (be selective), RSI 35, 1-month -5.0%.</p></div><div class="rg down"><b data-t="regime" class="hastip">IHSG</b><span class="rg-px">5,050 <em class="up">+0.40%</em></span><p>IHSG is 25.4% below its 200-day average: in a downtrend (defensive: smaller positions, wait for a reclaim), RSI 34, 1-month -16.3%.</p></div></div>
   
@@ -1996,42 +1988,42 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
   <p class="kicker">Big US Tech · Tesla</p>
   <h3><a class="story-link" href="https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html" target="_blank" rel="noopener">Tesla to wind down Cybertruck production in Texas next year to ramp Cybercab, Musk says</a></h3>
   <p class="dek">The Cybertruck and its polarizing design gained a niche following, but it did not achieve mass-market sales and Tesla has issued several voluntary recalls.</p>
-  <div class="meta"><span class="src">CNBC</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T15:06:11+00:00">20h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 3 outlets">3 sources</span></div>
+  <div class="meta"><span class="src">CNBC</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T15:06:11+00:00">21h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 3 outlets">3 sources</span></div>
 </article>
     <div class="slist">
-<article class="story row" data-text="spacex says google exec don harrison has resigned from its board spacex announced that don harrison, a google executive, has resigned from the company&#x27;s board of directors. cnbc spacex google">
+<article class="story row" data-text="tech companies face mounting child safety lawsuits while pushing ai into schools lawsuits against snap, meta and google are creating headwinds for tech companies just as artificial intelligence tools expand into classrooms. cnbc google meta">
   
   <div class="row-body">
-    <h4><a class="story-link" href="https://www.cnbc.com/2026/11/06/tesdonald-harrison.html" target="_blank" rel="noopener">SpaceX says Google exec Don Harrison has resigned from its board</a></h4>
-    <p class="dek clamp2">SpaceX announced that Don Harrison, a Google executive, has resigned from the company&#x27;s board of directors.</p>
-    <div class="meta"><span class="src">CNBC</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T22:30:22+00:00">12h ago</time></div>
+    <h4><a class="story-link" href="https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html" target="_blank" rel="noopener">Tech companies face mounting child safety lawsuits while pushing AI into schools</a></h4>
+    <p class="dek clamp2">Lawsuits against Snap, Meta and Google are creating headwinds for tech companies just as artificial intelligence tools expand into classrooms.</p>
+    <div class="meta"><span class="src">CNBC</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T12:00:01+00:00">12m ago</time></div>
   </div>
   
+</article>
+<article class="story row" data-text="the 10 best early black friday headphone deals (2026) get up to 50 percent off some of my favorite headphones and earbuds from apple, sony, bose, and more. wired apple">
+  
+  <div class="row-body">
+    <h4><a class="story-link" href="https://www.wired.com/story/best-early-black-friday-headphone-deals-11-6-26/" target="_blank" rel="noopener">The 10 Best Early Black Friday Headphone Deals (2026)</a></h4>
+    <p class="dek clamp2">Get up to 50 percent off some of my favorite headphones and earbuds from Apple, Sony, Bose, and more.</p>
+    <div class="meta"><span class="src">Wired</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T11:45:00+00:00">27m ago</time></div>
+  </div>
+  <a class="story-link" href="https://www.wired.com/story/best-early-black-friday-headphone-deals-11-6-26/" target="_blank" rel="noopener" tabindex="-1"><div class="row-media"><img src="https://media.wired.com/photos/6aee6de94daae82016170876/master/pass/The-Best-Early-Black-Friday-Headphone-Deals.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()"></div></a>
 </article>
 <article class="story row" data-text="this totally free app can free up space on your mac stop paying for disk cleaners. this open source utility safely clears hidden caches, leftover app junk, and even gigabytes of offline apple intelligence models. wired apple">
   
   <div class="row-body">
     <h4><a class="story-link" href="https://www.wired.com/story/this-totally-free-app-can-free-up-space-on-your-mac-purge/" target="_blank" rel="noopener">This Totally Free App Can Free Up Space on Your Mac</a></h4>
     <p class="dek clamp2">Stop paying for disk cleaners. This open source utility safely clears hidden caches, leftover app junk, and even gigabytes of offline Apple Intelligence models.</p>
-    <div class="meta"><span class="src">Wired</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T11:15:00+00:00">14m ago</time></div>
+    <div class="meta"><span class="src">Wired</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T11:15:00+00:00">57m ago</time></div>
   </div>
   <a class="story-link" href="https://www.wired.com/story/this-totally-free-app-can-free-up-space-on-your-mac-purge/" target="_blank" rel="noopener" tabindex="-1"><div class="row-media"><img src="https://media.wired.com/photos/69acccf77f50a7b6628a7193/master/pass/macbook-neo-07.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()"></div></a>
-</article>
-<article class="story row" data-text="goruck black friday sale: my favorite packs and weighted vests are nearly 50% off skip the gym and get outdoors with goruck’s indestructible packs and workout gear, deeply discounted ahead of the holidays. wired ">
-  
-  <div class="row-body">
-    <h4><a class="story-link" href="https://www.wired.com/story/goruck-black-friday-sale-2026/" target="_blank" rel="noopener">GoRuck Black Friday Sale: My Favorite Packs and Weighted Vests Are Nearly 50% Off</a></h4>
-    <p class="dek clamp2">Skip the gym and get outdoors with GoRuck’s indestructible packs and workout gear, deeply discounted ahead of the holidays.</p>
-    <div class="meta"><span class="src">Wired</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T11:00:00+00:00">29m ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 2 outlets">2 sources</span></div>
-  </div>
-  <a class="story-link" href="https://www.wired.com/story/goruck-black-friday-sale-2026/" target="_blank" rel="noopener" tabindex="-1"><div class="row-media"><img src="https://media.wired.com/photos/6aee7389276d9711716c9d08/master/pass/My-Favorite-GoRuck-Packs-and-Weighted-Vests-Are-on-Sale-for-Black-Friday.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()"></div></a>
 </article>
 <article class="story row" data-text="developer ends lucrative screensaver deal with roku because fox bought it developer: “i can’t be part of the fox world.” ars technica ">
   
   <div class="row-body">
     <h4><a class="story-link" href="https://arstechnica.com/gadgets/2026/11/artist-pulls-popular-screensaver-from-roku-os-because-of-fox-acquisition/" target="_blank" rel="noopener">Developer ends lucrative screensaver deal with Roku because Fox bought it</a></h4>
     <p class="dek clamp2">Developer: “I can’t be part of the Fox world.”</p>
-    <div class="meta"><span class="src">Ars Technica</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T19:50:18+00:00">15h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 3 outlets">3 sources</span></div>
+    <div class="meta"><span class="src">Ars Technica</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T19:50:18+00:00">16h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 3 outlets">3 sources</span></div>
   </div>
   <a class="story-link" href="https://arstechnica.com/gadgets/2026/11/artist-pulls-popular-screensaver-from-roku-os-because-of-fox-acquisition/" target="_blank" rel="noopener" tabindex="-1"><div class="row-media"><img src="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Screenshot-2026-11-06-134100-1152x648.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()"></div></a>
 </article>
@@ -2040,7 +2032,7 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
   <div class="row-body">
     <h4><a class="story-link" href="https://www.theverge.com/tech/1028871/meta-muse-ai-spaces" target="_blank" rel="noopener">Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now</a></h4>
     <p class="dek clamp2">Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called &quot;spaces,&quot; allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you...</p>
-    <div class="meta"><span class="src">The Verge</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T20:00:43+00:00">15h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 2 outlets">2 sources</span></div>
+    <div class="meta"><span class="src">The Verge</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T20:00:43+00:00">16h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 2 outlets">2 sources</span></div>
   </div>
   
 </article></div>
@@ -2055,7 +2047,7 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
   <p class="kicker">AI &amp; Chips · Nvidia</p>
   <h3><a class="story-link" href="https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy" target="_blank" rel="noopener">China reportedly recruited AI exec to spy on Jensen Huang</a></h3>
   <p class="dek">China&#x27;s intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and...</p>
-  <div class="meta"><span class="src">The Verge</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T23:00:44+00:00">12h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 2 outlets">2 sources</span></div>
+  <div class="meta"><span class="src">The Verge</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T23:00:44+00:00">13h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 2 outlets">2 sources</span></div>
 </article>
     <div class="slist">
 <article class="story row" data-text="openai valued at $1.25 trillion, as rival anthropic nears its ipo openai is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to bloomberg. that would make it one of the world&#x27;s most valuable companies, not long after raising $122 billion from investors... the verge openai anthropic">
@@ -2063,7 +2055,7 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
   <div class="row-body">
     <h4><a class="story-link" href="https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation" target="_blank" rel="noopener">OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO</a></h4>
     <p class="dek clamp2">OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world&#x27;s most valuable companies, not long after raising $122 billion from investors...</p>
-    <div class="meta"><span class="src">The Verge</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T23:46:18+00:00">11h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 2 outlets">2 sources</span></div>
+    <div class="meta"><span class="src">The Verge</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T23:46:18+00:00">12h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 2 outlets">2 sources</span></div>
   </div>
   
 </article>
@@ -2072,7 +2064,7 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
   <div class="row-body">
     <h4><a class="story-link" href="https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/" target="_blank" rel="noopener">Crusoe sells troubled Wyoming data center project to Google</a></h4>
     <p class="dek clamp2">The deal highlights the challenges of developing massive AI data centers.</p>
-    <div class="meta"><span class="src">TechCrunch</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T01:40:28+00:00">9h ago</time></div>
+    <div class="meta"><span class="src">TechCrunch</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T01:40:28+00:00">10h ago</time></div>
   </div>
   
 </article>
@@ -2081,7 +2073,7 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
   <div class="row-body">
     <h4><a class="story-link" href="https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/" target="_blank" rel="noopener">OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation</a></h4>
     <p class="dek clamp2">OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn&#x27;t closed yet but is expected to in the coming weeks.</p>
-    <div class="meta"><span class="src">TechCrunch</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T22:53:46+00:00">12h ago</time></div>
+    <div class="meta"><span class="src">TechCrunch</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T22:53:46+00:00">13h ago</time></div>
   </div>
   
 </article></div>
@@ -2096,7 +2088,7 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
   <p class="kicker">Robotics · Robot</p>
   <h3><a class="story-link" href="https://spectrum.ieee.org/video-friday-home-cable-robot" target="_blank" rel="noopener">Video Friday: Room-Scale Cable-Driven Home Robot Tidies Up</a></h3>
   <p class="dek">Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for...</p>
-  <div class="meta"><span class="src">IEEE Spectrum</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T17:00:03+00:00">18h ago</time></div>
+  <div class="meta"><span class="src">IEEE Spectrum</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T17:00:03+00:00">19h ago</time></div>
 </article>
     <div class="slist">
 <article class="story row" data-text="boston dynamics built stretch gen 2 for reliable, consistent performance brian donnelly, the vp and gm of logistics robotics at boston dynamics, said the new version of stretch has been in the works for two and a half years. the robot report robotics boston dynamics">
@@ -2104,7 +2096,7 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
   <div class="row-body">
     <h4><a class="story-link" href="https://www.therobotreport.com/boston-dynamics-built-stretch-gen-2-for-reliable-consistent-performance/" target="_blank" rel="noopener">Boston Dynamics built Stretch Gen 2 for reliable, consistent performance</a></h4>
     <p class="dek clamp2">Brian Donnelly, the VP and GM of logistics robotics at Boston Dynamics, said the new version of Stretch has been in the works for two and a half years.</p>
-    <div class="meta"><span class="src">The Robot Report</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T21:34:44+00:00">13h ago</time></div>
+    <div class="meta"><span class="src">The Robot Report</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T21:34:44+00:00">14h ago</time></div>
   </div>
   
 </article>
@@ -2113,7 +2105,7 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
   <div class="row-body">
     <h4><a class="story-link" href="https://www.therobotreport.com/how-point-one-turned-gps-accuracy-into-robotics-platform/" target="_blank" rel="noopener">How Point One turned GPS accuracy into a robotics platform</a></h4>
     <p class="dek clamp2">Aaron Nathan explains how precise location technology like GPS is enabling robots to navigate, coordinate, and scale across real environments.</p>
-    <div class="meta"><span class="src">The Robot Report</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T21:47:35+00:00">13h ago</time></div>
+    <div class="meta"><span class="src">The Robot Report</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T21:47:35+00:00">14h ago</time></div>
   </div>
   
 </article></div>
@@ -2128,7 +2120,7 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
   <p class="kicker">Space &amp; Aircraft · SpaceX</p>
   <h3><a class="story-link" href="https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-classified-mission-space-force-ussf-432" target="_blank" rel="noopener">SpaceX launches mystery mission for US Space Force in gorgeous sunset liftoff from California (photos)</a></h3>
   <p class="dek">SpaceX just launched a classified mission for the U.S. military. A Falcon 9 rocket lifted off from California&#x27;s Vandenberg Space Force Base this evening (Nov. 6) at 7:48 p.m. EST (4:48 p.m. local California time; 0048 GMT on Nov. 7)...</p>
-  <div class="meta"><span class="src">Space.com</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T01:41:58+00:00">9h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 2 outlets">2 sources</span></div>
+  <div class="meta"><span class="src">Space.com</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T01:41:58+00:00">10h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 2 outlets">2 sources</span></div>
 </article>
     <div class="slist">
 <article class="story row" data-text="ast spacemobile unveils $1.3 billion engine deal with firefly aerospace to power new heavy-lift rocket the company behind the bluebird direct-to-cell satellite constellation said the addition of its own heavy-lift rocket is the final piece of its plans for vertical integration. spaceflight now rocket satellite">
@@ -2145,7 +2137,7 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
   <div class="row-body">
     <h4><a class="story-link" href="https://www.nasaspaceflight.com/2026/11/starship-flight-15-awaits-faa/" target="_blank" rel="noopener">Starship Flight 15, a dual catch attempt, awaits FAA green light</a></h4>
     <p class="dek clamp2">Booster 22 and Ship 42 are in final checkouts for a no-earlier-than 13 November launch…</p>
-    <div class="meta"><span class="src">NASASpaceflight</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T15:31:51+00:00">19h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 2 outlets">2 sources</span></div>
+    <div class="meta"><span class="src">NASASpaceflight</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T15:31:51+00:00">20h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 2 outlets">2 sources</span></div>
   </div>
   
 </article>
@@ -2154,7 +2146,7 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
   <div class="row-body">
     <h4><a class="story-link" href="https://www.space.com/space-exploration/i-think-we-will-prevail-nasa-chief-jared-isaacman-on-artemis-china-and-the-new-moon-race-exclusive" target="_blank" rel="noopener">&#x27;I think we will prevail&#x27;: NASA chief Jared Isaacman on Artemis, China and the new moon race (exclusive)</a></h4>
     <p class="dek clamp2">NASA Administrator Jared Isaacman is serious about launching &quot;big rockets&quot; to the moon every single year for the agency&#x27;s Artemis program. And the new space race with China is fueling that ambition. &quot;I feel good. I feel like we are...</p>
-    <div class="meta"><span class="src">Space.com</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T11:00:00+00:00">29m ago</time></div>
+    <div class="meta"><span class="src">Space.com</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T11:00:00+00:00">1h ago</time></div>
   </div>
   <a class="story-link" href="https://www.space.com/space-exploration/i-think-we-will-prevail-nasa-chief-jared-isaacman-on-artemis-china-and-the-new-moon-race-exclusive" target="_blank" rel="noopener" tabindex="-1"><div class="row-media"><img src="https://cdn.mos.cms.futurecdn.net/hdXEWy2dVNKmQrF4BoLQZW-1920-80.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()"></div></a>
 </article>
@@ -2163,7 +2155,7 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
   <div class="row-body">
     <h4><a class="story-link" href="https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/" target="_blank" rel="noopener">APOD: 2026 November 7 – De Gerlache-Kocher Massif</a></h4>
     <p class="dek clamp2">APOD Science APOD APOD: 2026 November 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our...</p>
-    <div class="meta"><span class="src">NASA</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T05:05:00+00:00">6h ago</time></div>
+    <div class="meta"><span class="src">NASA</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T05:05:00+00:00">7h ago</time></div>
   </div>
   
 </article>
@@ -2182,12 +2174,12 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
   <header class="block-head"><h2 id="t-technology">Technology</h2><p>General technology, gadgets and security</p></header>
   <div class="sgrid">
     
-<article class="story card" data-text="free chinese ai models are getting scary good at hacking an experiment in which ai models were asked to break into simulated networks showed the hacking skills of deepseek and glm to be not far behind openai’s most advanced cyber model, which isn’t public. wired openai cyber">
-  <a class="story-link" href="https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/" target="_blank" rel="noopener"><div class="card-media"><img src="https://media.wired.com/photos/6aebae965d3f8b6dd99468be/master/pass/Security_Open-WeightAIModels.gif" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()"></div></a>
-  <p class="kicker">Technology · OpenAI</p>
-  <h3><a class="story-link" href="https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/" target="_blank" rel="noopener">Free Chinese AI Models Are Getting Scary Good at Hacking</a></h3>
-  <p class="dek">An experiment in which AI models were asked to break into simulated networks showed the hacking skills of DeepSeek and GLM to be not far behind OpenAI’s most advanced cyber model, which isn’t public.</p>
-  <div class="meta"><span class="src">Wired</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T18:43:43+00:00">16h ago</time></div>
+<article class="story card" data-text="best wi-fi routers (2026): my honest picks after testing 50+ don’t suffer the buffer. these wired-tested home routers will deliver reliable internet across your home, whatever your needs or budget. wired internet">
+  <a class="story-link" href="https://www.wired.com/gallery/best-wifi-routers/" target="_blank" rel="noopener"><div class="card-media"><img src="https://media.wired.com/photos/6ae7c95facba2861e5fb22fa/master/pass/Best%20Routers%20112026%20top%20art%20SOURCE%20Amazon.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()"></div></a>
+  <p class="kicker">Technology · Internet</p>
+  <h3><a class="story-link" href="https://www.wired.com/gallery/best-wifi-routers/" target="_blank" rel="noopener">Best Wi-Fi Routers (2026): My Honest Picks After Testing 50+</a></h3>
+  <p class="dek">Don’t suffer the buffer. These WIRED-tested home routers will deliver reliable internet across your home, whatever your needs or budget.</p>
+  <div class="meta"><span class="src">Wired</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T12:00:00+00:00">12m ago</time></div>
 </article>
     <div class="slist">
 <article class="story row" data-text="from the front row to the hot seat — what the midterms mean for big tech after spending two years getting cozy with the white house, big tech is suddenly trying to make friends with democrats, and the open question is whether that image makeover can hold up against what states, local communities, and the... techcrunch tech">
@@ -2204,27 +2196,27 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
   <div class="row-body">
     <h4><a class="story-link" href="https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era/" target="_blank" rel="noopener">Sequoia shutting down its Scouts program marks the end of an era</a></h4>
     <p class="dek clamp2">Sequoia pioneered the scouts model and many VC firms followed suit, but a consensus now seems to be forming that the model has reached limits in its current form.</p>
-    <div class="meta"><span class="src">TechCrunch</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T05:01:54+00:00">6h ago</time></div>
+    <div class="meta"><span class="src">TechCrunch</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T05:01:54+00:00">7h ago</time></div>
   </div>
   
+</article>
+<article class="story row" data-text="free chinese ai models are getting scary good at hacking an experiment in which ai models were asked to break into simulated networks showed the hacking skills of deepseek and glm to be not far behind openai’s most advanced cyber model, which isn’t public. wired openai cyber">
+  
+  <div class="row-body">
+    <h4><a class="story-link" href="https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/" target="_blank" rel="noopener">Free Chinese AI Models Are Getting Scary Good at Hacking</a></h4>
+    <p class="dek clamp2">An experiment in which AI models were asked to break into simulated networks showed the hacking skills of DeepSeek and GLM to be not far behind OpenAI’s most advanced cyber model, which isn’t public.</p>
+    <div class="meta"><span class="src">Wired</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T18:43:43+00:00">17h ago</time></div>
+  </div>
+  <a class="story-link" href="https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/" target="_blank" rel="noopener" tabindex="-1"><div class="row-media"><img src="https://media.wired.com/photos/6aebae965d3f8b6dd99468be/master/pass/Security_Open-WeightAIModels.gif" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()"></div></a>
 </article>
 <article class="story row" data-text="google&#x27;s eyewear partners can&#x27;t keep a lid on its smart glasses plans gentle monster shared that its &quot;intelligent eyewear&quot; will be available to pre-order on november 12. engadget google">
   
   <div class="row-body">
     <h4><a class="story-link" href="https://www.engadget.com/2309631/googles-eyewear-partners-cant-keep-a-lid-on-its-smart-glasses-plans/" target="_blank" rel="noopener">Google&#x27;s eyewear partners can&#x27;t keep a lid on its smart glasses plans</a></h4>
     <p class="dek clamp2">Gentle Monster shared that its &quot;Intelligent Eyewear&quot; will be available to pre-order on November 12.</p>
-    <div class="meta"><span class="src">Engadget</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T19:45:23+00:00">15h ago</time></div>
+    <div class="meta"><span class="src">Engadget</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T19:45:23+00:00">16h ago</time></div>
   </div>
   <a class="story-link" href="https://www.engadget.com/2309631/googles-eyewear-partners-cant-keep-a-lid-on-its-smart-glasses-plans/" target="_blank" rel="noopener" tabindex="-1"><div class="row-media"><img src="https://www.engadget.com/img/gallery/googles-eyewear-partners-cant-keep-a-lid-on-its-smart-glasses-plans/l-intro-1793994268.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()"></div></a>
-</article>
-<article class="story row" data-text="the best automatic litter box of 2026: petkit and litter-robot with these high-tech automatic litter boxes, gone are the days of scooping and smells. welcome to the future. wired robot tech">
-  
-  <div class="row-body">
-    <h4><a class="story-link" href="https://www.wired.com/gallery/best-automatic-cat-litter-boxes/" target="_blank" rel="noopener">The Best Automatic Litter Box of 2026: Petkit and Litter-Robot</a></h4>
-    <p class="dek clamp2">With these high-tech automatic litter boxes, gone are the days of scooping and smells. Welcome to the future.</p>
-    <div class="meta"><span class="src">Wired</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T12:05:00+00:00">23h ago</time></div>
-  </div>
-  <a class="story-link" href="https://www.wired.com/gallery/best-automatic-cat-litter-boxes/" target="_blank" rel="noopener" tabindex="-1"><div class="row-media"><img src="https://media.wired.com/photos/69d4403d94490f13c636bd21/master/pass/The-Best-Automatic-Litter-Boxes-Tested-by-Our-Spoiled-Cats.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()"></div></a>
 </article>
 <article class="story row" data-text="the new york times company is reportedly trying to buy letterboxd for $330 million the new york times company declined to comment on the new york times&#x27; story. engadget ">
   
@@ -2242,7 +2234,7 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
   <div class="sgrid">
     
 <article class="story card" data-text="eks pakar google ngaku setop nabung pensiun, ketakutan bahaya ai? mantan pakar ai google, nate soares, memperingatkan bahwa perkembangan ai dapat menyebabkan kepunahan manusia dalam 10 tahun. cnbc indonesia google">
-  <a class="story-link" href="https://www.cnbcindonesia.com/market/20261107121039-17-783169/eks-pakar-google-ngaku-setop-nabung-pensiun-ketakutan-bahaya-ai" target="_blank" rel="noopener"><div class="card-media"><img src="https://akcdn.detik.net.id/visual/2022/02/03/ilustrasi-dana-darurat-freepik-1_169.jpeg?w=1200&amp;q=90" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()"></div></a>
+  <a class="story-link" href="https://www.cnbcindonesia.com/market/20261107121039-17-783169/eks-pakar-google-ngaku-setop-nabung-pensiun-ketakutan-bahaya-ai" target="_blank" rel="noopener"><div class="card-media"><img src="https://awsimages.detik.net.id/visual/2022/02/03/ilustrasi-dana-darurat-freepik-1_169.jpeg?w=1200&amp;q=90" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()"></div></a>
   <p class="kicker">Markets · Google</p>
   <h3><a class="story-link" href="https://www.cnbcindonesia.com/market/20261107121039-17-783169/eks-pakar-google-ngaku-setop-nabung-pensiun-ketakutan-bahaya-ai" target="_blank" rel="noopener">Eks Pakar Google Ngaku Setop Nabung Pensiun, Ketakutan Bahaya AI?</a></h3>
   <p class="dek">Mantan pakar AI Google, Nate Soares, memperingatkan bahwa perkembangan AI dapat menyebabkan kepunahan manusia dalam 10 tahun.</p>
@@ -2263,7 +2255,7 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
   <div class="row-body">
     <h4><a class="story-link" href="https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html" target="_blank" rel="noopener">Americans are on a &#x27;treadmill of high inflation&#x27; and more rate hikes are likely, Fed&#x27;s Daly says</a></h4>
     <p class="dek clamp2">San Francisco Fed President Mary Daly called Friday&#x27;s jobs report &quot;good news for American workers,&quot; but noted the pressure inflation is exerting on household finances</p>
-    <div class="meta"><span class="src">CNBC</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T19:05:00+00:00">16h ago</time></div>
+    <div class="meta"><span class="src">CNBC</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T19:05:00+00:00">17h ago</time></div>
   </div>
   
 </article>
@@ -2272,7 +2264,7 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
   <div class="row-body">
     <h4><a class="story-link" href="https://www.marketwatch.com/story/elon-musk-opens-the-door-for-a-big-spacex-acquisition-4f62bcad?mod=mw_rss_topstories" target="_blank" rel="noopener">Elon Musk opens the door for a big SpaceX acquisition</a></h4>
     <p class="dek clamp2">The rocket and satellite-internet company is looking to challenge telecom giants.</p>
-    <div class="meta"><span class="src">MarketWatch</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T21:45:00+00:00">13h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 2 outlets">2 sources</span></div>
+    <div class="meta"><span class="src">MarketWatch</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T21:45:00+00:00">14h ago</time><span class="dot" aria-hidden="true">·</span><span class="cov" title="Reported by 2 outlets">2 sources</span></div>
   </div>
   <a class="story-link" href="https://www.marketwatch.com/story/elon-musk-opens-the-door-for-a-big-spacex-acquisition-4f62bcad?mod=mw_rss_topstories" target="_blank" rel="noopener" tabindex="-1"><div class="row-media"><img src="https://images.mktw.net/im-63491767" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()"></div></a>
 </article>
@@ -2281,18 +2273,18 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
   <div class="row-body">
     <h4><a class="story-link" href="https://www.cnbcindonesia.com/market/20261107131801-17-783178/ternyata-msci-tak-ngefek-banyak-ini-musuh-utama-bikin-rupiah-melemah" target="_blank" rel="noopener">Ternyata MSCI Tak Ngefek Banyak, Ini Musuh Utama Bikin Rupiah Melemah</a></h4>
     <p class="dek clamp2">Pelemahan rupiah Indonesia dipicu oleh sentimen geopolitik dan MSCI. Arus modal asing keluar dari pasar saham, namun dampaknya terhadap rupiah terbatas.</p>
-    <div class="meta"><span class="src">CNBC Indonesia</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T08:45:00+00:00">2h ago</time></div>
+    <div class="meta"><span class="src">CNBC Indonesia</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T08:45:00+00:00">3h ago</time></div>
   </div>
-  <a class="story-link" href="https://www.cnbcindonesia.com/market/20261107131801-17-783178/ternyata-msci-tak-ngefek-banyak-ini-musuh-utama-bikin-rupiah-melemah" target="_blank" rel="noopener" tabindex="-1"><div class="row-media"><img src="https://akcdn.detik.net.id/visual/2022/07/04/ilustrasi-dolar-amerika-serikat-as-18_169.jpeg?w=1200&amp;q=90" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()"></div></a>
+  <a class="story-link" href="https://www.cnbcindonesia.com/market/20261107131801-17-783178/ternyata-msci-tak-ngefek-banyak-ini-musuh-utama-bikin-rupiah-melemah" target="_blank" rel="noopener" tabindex="-1"><div class="row-media"><img src="https://awsimages.detik.net.id/visual/2022/07/04/ilustrasi-dolar-amerika-serikat-as-18_169.jpeg?w=1200&amp;q=90" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()"></div></a>
 </article>
-<article class="story row" data-text="micron’s stock is dirt cheap — and that’s igniting a fierce online debate valuation purists see a ridiculously inexpensive stock, but some semiconductor investors say micron’s earnings power won’t hold up. marketwatch micron stock earnings">
+<article class="story row" data-text="indonesia taps affluent travelers to drive higher tourist spending the ministry of tourism is targeting the high-net-worth domestic market—commonly referred to as affluent ... antara news market">
   
   <div class="row-body">
-    <h4><a class="story-link" href="https://www.marketwatch.com/story/microns-stock-is-dirt-cheap-and-thats-igniting-a-fierce-online-debate-0626791d?mod=mw_rss_topstories" target="_blank" rel="noopener">Micron’s stock is dirt cheap — and that’s igniting a fierce online debate</a></h4>
-    <p class="dek clamp2">Valuation purists see a ridiculously inexpensive stock, but some semiconductor investors say Micron’s earnings power won’t hold up.</p>
-    <div class="meta"><span class="src">MarketWatch</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-06T20:58:00+00:00">14h ago</time></div>
+    <h4><a class="story-link" href="https://en.antaranews.com/news/441007/indonesia-taps-affluent-travelers-to-drive-higher-tourist-spending" target="_blank" rel="noopener">Indonesia taps affluent travelers to drive higher tourist spending</a></h4>
+    <p class="dek clamp2">The Ministry of Tourism is targeting the high-net-worth domestic market—commonly referred to as affluent ...</p>
+    <div class="meta"><span class="src">Antara News</span><span class="dot" aria-hidden="true">·</span><time datetime="2026-11-07T12:12:09+00:00">0m ago</time></div>
   </div>
-  <a class="story-link" href="https://www.marketwatch.com/story/microns-stock-is-dirt-cheap-and-thats-igniting-a-fierce-online-debate-0626791d?mod=mw_rss_topstories" target="_blank" rel="noopener" tabindex="-1"><div class="row-media"><img src="https://images.mktw.net/im-84938354" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()"></div></a>
+  <a class="story-link" href="https://en.antaranews.com/news/441007/indonesia-taps-affluent-travelers-to-drive-higher-tourist-spending" target="_blank" rel="noopener" tabindex="-1"><div class="row-media"><img src="https://img.antaranews.com/cache/255x170/2026/11/07/WhatsApp-Image-2026-11-07-at-09.59.43.jpeg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg');this.remove()"></div></a>
 </article></div>
   </div>
 </section>
@@ -2301,8 +2293,8 @@ tr.up .bar{color:var(--up)}tr.down .bar{color:var(--down)}tr.flat .bar{color:var
 
 <footer class="foot">
   <div class="foot-in">
-    <p><b>The Morning Paper</b> · Saturday, November 7, 2026 · generated 2026-11-07 18:29</p>
-    <p class="srcs">Sources: Ars Technica, CNBC, CNBC Indonesia, Engadget, IEEE Spectrum, MarketWatch, NASA, NASASpaceflight, Space.com, Spaceflight Now, TechCrunch, The Robot Report, The Verge, Wired. Headlines and summaries belong to their publishers; every story links to the original.</p>
+    <p><b>The Morning Paper</b> · Saturday, November 7, 2026 · generated 2026-11-07 19:12</p>
+    <p class="srcs">Sources: Antara News, Ars Technica, CNBC, CNBC Indonesia, Engadget, IEEE Spectrum, MarketWatch, NASA, NASASpaceflight, Space.com, Spaceflight Now, TechCrunch, The Robot Report, The Verge, Wired. Headlines and summaries belong to their publishers; every story links to the original.</p>
   </div>
 </footer>
 
