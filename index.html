@@ -50,7 +50,7 @@ a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
 .tabs a{flex-shrink:0;font-size:13.5px;font-weight:550;color:var(--ink3);padding:10px 12px;border-bottom:2px solid transparent;transition:color .15s}
 .tabs a:hover{color:var(--ink)}.tabs a.on{color:var(--ink);border-bottom-color:var(--accent)}
 .tabs a.tab-cta{color:var(--accent)}
-.tabs-in{scroll-snap-type:x proximity}
+.tabs-in{scroll-snap-type:x proximity;overscroll-behavior-x:contain}
 .tabs a{scroll-snap-align:start}
 .tabs-in[data-fade="l"]{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 40px,#000 100%);mask-image:linear-gradient(90deg,transparent 0,#000 40px,#000 100%)}
 .tabs-in[data-fade="r"]{-webkit-mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - 40px),transparent 100%);mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - 40px),transparent 100%)}
