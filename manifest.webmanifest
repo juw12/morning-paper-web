@@ -1,6 +1,6 @@
 {
- "name": "Stock Desk - The Morning Paper",
- "short_name": "Stock Desk",
+ "name": "Morrow",
+ "short_name": "Morrow",
  "start_url": "/latest.html#analysis",
  "display": "standalone",
  "background_color": "#f7f6f2",
@@ -16,5 +16,6 @@
    "sizes": "512x512",
    "type": "image/png"
   }
- ]
+ ],
+ "description": "Your morning news, curated: merged stories, an AI brief and a stock desk."
 }
