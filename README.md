@@ -1,6 +1,8 @@
-# The Morning Paper: web edition
+# Morrow: web edition
 
-**▶ Live: https://juw12.github.io/morning-paper-web/**
+*Formerly The Morning Paper. Same app, shorter name; the address is unchanged.*
+
+**Live: https://juw12.github.io/morning-paper-web/**
 
 A morning newspaper for markets, AI and chips, robotics, space and tech. Hundreds of headlines are boiled down to the stories that matter: coverage from several outlets is merged, there's an AI brief at the top and a "why it matters" line on every story. A stock desk sits alongside with valuation scores for big US tech and Indonesian blue chips.
 
