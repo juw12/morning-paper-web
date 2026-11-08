@@ -1,0 +1,37 @@
+name: Waitlist tally
+
+on:
+  issues:
+    types: [opened, edited, labeled, closed, reopened, deleted]
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  contents: read
+
+concurrency:
+  group: waitlist-tally
+  cancel-in-progress: false
+
+jobs:
+  tally:
+    if: >-
+      github.event_name != 'issues' ||
+      contains(github.event.issue.labels.*.name, 'waitlist') ||
+      startsWith(github.event.issue.title, 'Portfolio briefing waitlist')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run the tally tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Thank a new sign-up
+        if: github.event_name == 'issues' && github.event.action == 'opened'
+        run: python3 scripts/waitlist_tally.py --welcome ${{ github.event.issue.number }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Update the live tally issue
+        run: python3 scripts/waitlist_tally.py --update
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

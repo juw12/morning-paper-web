@@ -20,6 +20,13 @@ A morning newspaper for markets, AI and chips, robotics, space and tech. Hundred
 - Live prices come from a small Supabase edge function, so the page never needs your own API keys.
 - `.github/workflows/keepalive.yml` pings the backend daily so the free project never pauses.
 
+## Portfolio briefing waitlist
+
+A planned add-on: last night's US move plus the rupiah, coal, oil and nickel, mapped to the stocks **you** hold, before the IDX opens. It's free to join: [join the waitlist](https://github.com/juw12/morning-paper-web/issues/new?template=portfolio-briefing.yml) (a short public form; please don't post your holdings).
+
+- `.github/workflows/waitlist.yml` thanks each sign-up and keeps a live tally issue up to date (`scripts/waitlist_tally.py`, tests in `tests/`).
+- Success line: 50 sign-ups between 2026-11-08 and 2026-11-22. 15-49 means rework the pitch; under 15 means stop.
+
 ## Notes
 
 - Built by [Juwen Lie](https://github.com/juw12) as an independent personal project. Still being built, so expect changes.

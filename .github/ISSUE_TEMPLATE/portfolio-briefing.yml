@@ -1,0 +1,61 @@
+name: Portfolio briefing waitlist
+description: Join the free waitlist for the Morning Paper portfolio briefing (which overnight moves hit your own IDX/US holdings, before the IDX opens).
+title: "Portfolio briefing waitlist"
+labels: ["waitlist"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest. **This issue is public, so please don't post your holdings, amounts or account details.**
+        The portfolio briefing adds one section to the Morning Paper: last night's US move and the rupiah, coal, oil and nickel prices, mapped to the stocks you hold, before the IDX opens.
+        The waitlist is free. Not investment advice.
+  - type: dropdown
+    id: markets
+    attributes:
+      label: Which markets do you hold?
+      options:
+        - "IDX only"
+        - "US only"
+        - "Both IDX and US"
+        - "Other"
+    validations:
+      required: true
+  - type: dropdown
+    id: holdings
+    attributes:
+      label: Roughly how many stocks or funds do you hold?
+      options:
+        - "1-5"
+        - "6-15"
+        - "16 or more"
+    validations:
+      required: true
+  - type: dropdown
+    id: delivery
+    attributes:
+      label: Where would you read it?
+      options:
+        - "E-mail before the IDX opens"
+        - "Web page"
+        - "Telegram"
+  - type: dropdown
+    id: pay
+    attributes:
+      label: Would you pay a small monthly fee for it later?
+      options:
+        - "Yes"
+        - "Maybe"
+        - "No"
+    validations:
+      required: true
+  - type: textarea
+    id: wish
+    attributes:
+      label: What should the briefing tell you that you don't get today?
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: I haven't posted my holdings, amounts or account details in this public issue.
+          required: true
