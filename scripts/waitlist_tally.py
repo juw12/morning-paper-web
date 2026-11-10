@@ -19,7 +19,7 @@ import sys
 import urllib.request
 from datetime import date, datetime, timezone
 
-REPO = os.environ.get("GITHUB_REPOSITORY", "juw12/morning-paper-web")
+REPO = os.environ.get("GITHUB_REPOSITORY", "juw12/morrow")
 OWNER = REPO.split("/")[0]
 WAITLIST_LABEL = "waitlist"
 TRACKER_LABEL = "waitlist-tally"
@@ -34,7 +34,7 @@ WELCOME_TEXT = WELCOME_MARKER + """
 Thanks for joining the Morning Paper portfolio-briefing waitlist. You'll hear back here when the \
 first briefings go out.
 
-Meanwhile today's free edition is at https://juw12.github.io/morning-paper-web/ \
+Meanwhile today's free edition is at https://juw12.github.io/morrow/ \
 (markets, IDX catalysts and the news before the IDX opens). Not investment advice."""
 PAY_ANSWERS = ("yes", "maybe", "no")
 
