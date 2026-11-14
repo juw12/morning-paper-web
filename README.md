@@ -27,6 +27,16 @@ A planned add-on: last night's US move plus the rupiah, coal, oil and nickel, ma
 - `.github/workflows/waitlist.yml` thanks each sign-up and keeps a live tally issue up to date (`scripts/waitlist_tally.py`, tests in `tests/`).
 - Success line: 50 sign-ups between 2026-11-08 and 2026-11-22. 15-49 means rework the pitch; under 15 means stop.
 
+## Morrow Brief (social page)
+
+The same edition as a page channel: one morning digest of five stories, plus a few alerts for stories that three or more outlets report. Every post carries its outlet count, a link and a typographic card. Telegram is posted to directly; Instagram, Threads and X go through Buffer. A Telegram bot answers section commands and `/find`.
+
+- `.github/workflows/social.yml` ("Morrow Brief") runs the tests on every pull request. On `main` it builds the posts from the published `index.html` and delivers them.
+- `.github/workflows/social-bot.yml` ("Morrow Brief bot") sets the bot's webhook, or polls as a slower fallback.
+- Setup, post formats, failure handling and what is not verified yet: [docs/SOCIAL.md](docs/SOCIAL.md).
+
+Nothing is posted until the secrets are added, and no post has been sent to a real platform yet.
+
 ## Notes
 
 - Built by [Juwen Lie](https://github.com/juw12) as an independent personal project. Still being built, so expect changes.

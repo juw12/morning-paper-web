@@ -1,0 +1,4 @@
+# Only the social page needs these; the waitlist tally runs on the standard library.
+beautifulsoup4>=4.12,<5
+pillow>=10.3,<13
+requests>=2.31,<3
