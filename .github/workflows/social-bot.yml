@@ -1,0 +1,86 @@
+name: Morrow Brief bot
+
+# The Telegram bot's fallback path: answer commands by polling every five minutes.
+# The faster path is the Cloudflare Worker in bot/worker.js; this workflow also sets its webhook.
+# The scheduled run does nothing until the repo variable MORROW_BOT is set to "on". See docs/SOCIAL.md.
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+    inputs:
+      action:
+        description: What to do
+        type: choice
+        default: poll
+        options:
+          - poll
+          - set-webhook
+          - delete-webhook
+      url:
+        description: Worker URL, for set-webhook (https://...workers.dev)
+        type: string
+        required: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: morrow-bot
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    if: >-
+      (github.event_name == 'schedule' && vars.MORROW_BOT == 'on') ||
+      (github.event_name == 'workflow_dispatch' && inputs.action == 'poll')
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: scripts
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/social_requirements.txt
+      - name: Install
+        run: pip install -r scripts/social_requirements.txt
+      - name: Fetch today's feed
+        run: |
+          mkdir -p data
+          curl -fsSL "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/social-data/feed.json" -o data/feed.json \
+            || echo "no feed published yet, the bot will say the edition is not ready"
+      - name: Answer messages
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python scripts/social_bot.py poll --feed data/feed.json --listen 240
+
+  webhook:
+    if: github.event_name == 'workflow_dispatch' && inputs.action != 'poll'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: scripts
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/social_requirements.txt
+      - name: Install
+        run: pip install -r scripts/social_requirements.txt
+      - name: Point Telegram at the Worker
+        if: inputs.action == 'set-webhook'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_WEBHOOK_SECRET: ${{ secrets.TELEGRAM_WEBHOOK_SECRET }}
+          WORKER_URL: ${{ inputs.url }}
+        run: python scripts/social_bot.py set-webhook --url "$WORKER_URL"
+      - name: Remove the webhook
+        if: inputs.action == 'delete-webhook'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python scripts/social_bot.py delete-webhook

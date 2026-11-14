@@ -1,0 +1,679 @@
+{
+ "feed": {
+  "brand": "Morrow Brief",
+  "site": "https://juw12.github.io/morrow/",
+  "date": "2026-11-14",
+  "updated": "14:30",
+  "stats": {
+   "stories": 32,
+   "outlets": 15
+  },
+  "markets": [
+   {
+    "name": "S&P 500",
+    "pct": 0.4,
+    "dir": "down",
+    "price": "7,561.67"
+   },
+   {
+    "name": "Nasdaq",
+    "pct": 0.91,
+    "dir": "down",
+    "price": "25,136.27"
+   },
+   {
+    "name": "Dow Jones",
+    "pct": 0.1,
+    "dir": "up",
+    "price": "52,347.55"
+   },
+   {
+    "name": "IHSG (Jakarta)",
+    "pct": 1.78,
+    "dir": "up",
+    "price": "5,344.41"
+   },
+   {
+    "name": "Gold (XAU)",
+    "pct": 0.03,
+    "dir": "up",
+    "price": "3,886.30"
+   }
+  ],
+  "stories": [
+   {
+    "id": "7b936009af",
+    "title": "SpaceX launches Starship on ambitious 22-hour Flight 15 test, but aborts booster 'chopsticks' catch (video)",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship",
+    "source": "Space.com",
+    "section": "Space & Aircraft",
+    "section_id": "space",
+    "tag": "SpaceX",
+    "dek": "STARBASE, Texas — SpaceX launched the 15th test flight of its massive Starship rocket today (Nov. 13) and is preparing the vehicle's upper stage for its first-ever return to the launch site in less than 24 hours. Flight 15 lifted off from…",
+    "published_iso": "2026-11-13T23:20:03+00:00",
+    "coverage": 5,
+    "related": [
+     {
+      "source": "Spaceflight Now",
+      "title": "Starship in orbit ahead of catch attempt, booster diverts to explosive splashdown",
+      "url": "https://spaceflightnow.com/2026/11/13/live-coverage-starship-flight-15-attempts-to-recover-full-vehicle-in-double-launch-pad-catch/"
+     },
+     {
+      "source": "Teslarati",
+      "title": "SpaceX Starship Flight 15: How to watch the double catch attempt",
+      "url": "https://www.teslarati.com/spacex-starship-flight-15-how-to-watch-the-double-catch-attempt/"
+     },
+     {
+      "source": "NASASpaceflight",
+      "title": "Starship Flight 15: Ship 42 orbital, Booster diverts to ocean",
+      "url": "https://www.nasaspaceflight.com/2026/11/starship-flight-15-spacex-history/"
+     },
+     {
+      "source": "Ars Technica",
+      "title": "Rocket Report: Starship set for historic test flight; a century of Electron",
+      "url": "https://arstechnica.com/space/2026/11/rocket-report-starship-set-for-historic-test-flight-a-century-of-electron/"
+     }
+    ],
+    "is_lead": true,
+    "order": 0
+   },
+   {
+    "id": "00ccf51f4f",
+    "title": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
+    "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+    "source": "CNBC",
+    "section": "Big US Tech",
+    "section_id": "big_tech",
+    "tag": "Nvidia",
+    "dek": "Jensen Huang's resignation added to Nvidia's market woes, with the stock already in a downward slide since early October.",
+    "published_iso": "2026-11-13T22:18:43+00:00",
+    "coverage": 3,
+    "related": [],
+    "is_lead": false,
+    "order": 1
+   },
+   {
+    "id": "951c845619",
+    "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+    "source": "The Verge",
+    "section": "AI & Chips",
+    "section_id": "ai",
+    "tag": "OpenAI",
+    "dek": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out…",
+    "published_iso": "2026-11-13T20:45:10+00:00",
+    "coverage": 3,
+    "related": [],
+    "is_lead": false,
+    "order": 2
+   },
+   {
+    "id": "b777df82a2",
+    "title": "Analysis: Companies love a ‘rockstar’ CEO. Until they depend on one",
+    "url": "https://www.cnbc.com/2026/11/14/nvidia-jensen-huang-ceo-succession-risk.html",
+    "source": "CNBC",
+    "section": "Big US Tech",
+    "section_id": "big_tech",
+    "tag": "Nvidia",
+    "dek": "Jensen Huang’s exit tests Nvidia’s succession planning and governance, and offers lessons for companies that elevate their CEOs to rockstar…",
+    "published_iso": "2026-11-14T07:08:45+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 3
+   },
+   {
+    "id": "d73553036a",
+    "title": "Outlook Went Down? Microsoft May Owe You Money",
+    "url": "https://www.wired.com/story/outlook-went-down-microsoft-may-owe-you-money/",
+    "source": "Wired",
+    "section": "Big US Tech",
+    "section_id": "big_tech",
+    "tag": "",
+    "dek": "If your Microsoft business services were offline last week, you’re probably entitled to a partial credit on your next monthly bill.",
+    "published_iso": "2026-11-14T07:00:00+00:00",
+    "coverage": 2,
+    "related": [],
+    "is_lead": false,
+    "order": 4
+   },
+   {
+    "id": "625517f21d",
+    "title": "Microsoft’s global outage may be worse than Amazon's or CrowdStrike's, expert says",
+    "url": "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/",
+    "source": "Ars Technica",
+    "section": "Big US Tech",
+    "section_id": "big_tech",
+    "tag": "",
+    "dek": "Governments, hospitals, courts scrambled by global Microsoft outage.",
+    "published_iso": "2026-11-13T15:26:53+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 5
+   },
+   {
+    "id": "46f76adf16",
+    "title": "Starship flight 15 powers to orbit—setting up a possible catch on Saturday",
+    "url": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
+    "source": "Ars Technica",
+    "section": "Big US Tech",
+    "section_id": "big_tech",
+    "tag": "",
+    "dek": "One way or another, the company will get some more data on Saturday.",
+    "published_iso": "2026-11-14T00:49:13+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 6
+   },
+   {
+    "id": "04367a7d0b",
+    "title": "Amazon has a plan to index the world’s online shopping data",
+    "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+    "source": "The Verge",
+    "section": "Big US Tech",
+    "section_id": "big_tech",
+    "tag": "",
+    "dek": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World...",
+    "published_iso": "2026-11-13T23:49:11+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 7
+   },
+   {
+    "id": "ec577d4c46",
+    "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+    "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+    "source": "TechCrunch",
+    "section": "AI & Chips",
+    "section_id": "ai",
+    "tag": "Nvidia",
+    "dek": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and…",
+    "published_iso": "2026-11-13T22:43:00+00:00",
+    "coverage": 2,
+    "related": [],
+    "is_lead": false,
+    "order": 8
+   },
+   {
+    "id": "3dc626ea28",
+    "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+    "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+    "source": "TechCrunch",
+    "section": "AI & Chips",
+    "section_id": "ai",
+    "tag": "",
+    "dek": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+    "published_iso": "2026-11-13T18:40:30+00:00",
+    "coverage": 2,
+    "related": [],
+    "is_lead": false,
+    "order": 9
+   },
+   {
+    "id": "71dad9da95",
+    "title": "Let’s talk about Jensen Huang’s many affairs!",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+    "source": "The Verge",
+    "section": "AI & Chips",
+    "section_id": "ai",
+    "tag": "",
+    "dek": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are...",
+    "published_iso": "2026-11-13T19:07:12+00:00",
+    "coverage": 2,
+    "related": [],
+    "is_lead": false,
+    "order": 10
+   },
+   {
+    "id": "0d9fae548b",
+    "title": "How Microcredentials Help Engineers Build Trustworthy AI",
+    "url": "https://spectrum.ieee.org/microcredentials-trustworthy-ai",
+    "source": "IEEE Spectrum",
+    "section": "AI & Chips",
+    "section_id": "ai",
+    "tag": "",
+    "dek": "Engineering teams are moving at breakneck speed to integrate artificial intelligence, but they are running into a formidable new barrier: compliance issues. Translating high-level AI ethics , governance , and auditing into daily...",
+    "published_iso": "2026-11-13T19:00:03+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 11
+   },
+   {
+    "id": "0967f49901",
+    "title": "Video Friday: NASA PROMISEs a New Moon Rover",
+    "url": "https://spectrum.ieee.org/video-friday-moon-rover-promise",
+    "source": "IEEE Spectrum",
+    "section": "Robotics",
+    "section_id": "robotics",
+    "tag": "Robotics",
+    "dek": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a…",
+    "published_iso": "2026-11-13T17:30:03+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 12
+   },
+   {
+    "id": "2f9c1e909e",
+    "title": "Narwal builds robot vacuums to serve regional needs",
+    "url": "https://www.therobotreport.com/narwal-builds-robot-vacuums-to-serve-regional-needs/",
+    "source": "The Robot Report",
+    "section": "Robotics",
+    "section_id": "robotics",
+    "tag": "",
+    "dek": "Narwal executives say they spent a decade in research and development and have tailored their household cleaning robots to local markets.",
+    "published_iso": "2026-11-13T13:18:05+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 13
+   },
+   {
+    "id": "471fb334b4",
+    "title": "Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial",
+    "url": "https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/",
+    "source": "The Robot Report",
+    "section": "Robotics",
+    "section_id": "robotics",
+    "tag": "",
+    "dek": "Four of the six robots pass a performance assessment as the trial puts customer service, retail operations and embodied AI capabilities to the test in a working store.",
+    "published_iso": "2026-11-13T16:32:58+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 14
+   },
+   {
+    "id": "3eacf60382",
+    "title": "On this day in space! Nov. 13, 1971: NASA's Mariner 9 becomes 1st spacecraft to orbit Mars, revealing close looks at the Martian surface",
+    "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-13-2026",
+    "source": "Space.com",
+    "section": "Space & Aircraft",
+    "section_id": "space",
+    "tag": "",
+    "dek": "On Nov. 13, 1971, Mariner 9 became the first spacecraft to orbit Mars. At the time, scientists didn't know much about the Red Planet. NASA had several Mars flybys before Mariner 9 . Those flybys showed that Mars had a cratered surface , so...",
+    "published_iso": "2026-11-13T21:25:55+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 15
+   },
+   {
+    "id": "5459684a14",
+    "title": "ULA delays to Saturday Vulcan rocket launch of 40 Leo satellites for Amazon",
+    "url": "https://spaceflightnow.com/2026/11/13/ulas-vulcan-rocket-plans-return-to-flight-with-launch-of-40-leo-satellites-for-amazon/",
+    "source": "Spaceflight Now",
+    "section": "Space & Aircraft",
+    "section_id": "space",
+    "tag": "",
+    "dek": "Liftoff from Space Launch Complex 41 at Cape Canaveral Space Force Station is now scheduled for 12:32 p.m. EST (1732 UTC) on Saturday.",
+    "published_iso": "2026-11-13T12:25:06+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 16
+   },
+   {
+    "id": "002f283667",
+    "title": "SpaceX Starship is going for a catch that could change spaceflight forever",
+    "url": "https://www.teslarati.com/spacex-starship-flight-15-double-catch/",
+    "source": "Teslarati",
+    "section": "Space & Aircraft",
+    "section_id": "space",
+    "tag": "",
+    "dek": "SpaceX will try to catch both Starship stages today, a first for any orbital rocket.",
+    "published_iso": "2026-11-13T15:13:56+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 17
+   },
+   {
+    "id": "1cbd2bca9b",
+    "title": "Outbursts from a Massive Star",
+    "url": "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/",
+    "source": "NASA",
+    "section": "Space & Aircraft",
+    "section_id": "space",
+    "tag": "",
+    "dek": "Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star located in the galaxy shown in this image released on Nov. 9, 2026. The volatile star, known as AT...",
+    "published_iso": "2026-11-13T16:39:33+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 18
+   },
+   {
+    "id": "17ce9d8841",
+    "title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
+    "url": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/",
+    "source": "NASA",
+    "section": "Space & Aircraft",
+    "section_id": "space",
+    "tag": "",
+    "dek": "Astronauts James A. Lovell Jr. and Edwin E. “Buzz” Aldrin Jr. orbited Earth from November 11 to 15, 1966, on Gemini XII, the final mission of NASA’s Gemini program. In addition to successfully completing rendezvous maneuvers and...",
+    "published_iso": "2026-11-13T16:05:54+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 19
+   },
+   {
+    "id": "f1d12a18d6",
+    "title": "Klook Promo Code: 20% Off November 2026",
+    "url": "https://www.wired.com/story/klook-promo-code/",
+    "source": "Wired",
+    "section": "Technology",
+    "section_id": "technology",
+    "tag": "App",
+    "dek": "Maximize your travel budget with our expert guide to finding Klook coupons, app-exclusive deals, and payment discounts on tours, hotels…",
+    "published_iso": "2026-11-14T06:00:00+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 20
+   },
+   {
+    "id": "57ae9f9b1f",
+    "title": "Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price",
+    "url": "https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/",
+    "source": "TechCrunch",
+    "section": "Technology",
+    "section_id": "technology",
+    "tag": "",
+    "dek": "The latest model is lighter and thinner than its predecessor and features an edge-to-edge display. But if you already own the first-generation Colorsoft, there’s little reason to upgrade.",
+    "published_iso": "2026-11-13T23:00:00+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 21
+   },
+   {
+    "id": "1b8f2f598f",
+    "title": "FAA allows flights to resume after hours-long ground stop across the US",
+    "url": "https://www.engadget.com/2316792/faa-flights-resume-ground-stop-old-equipment/",
+    "source": "Engadget",
+    "section": "Technology",
+    "section_id": "technology",
+    "tag": "",
+    "dek": "The FAA grounded flights for hours on November 13, and the transportation secretary blamed it on old and malfunctioning air traffic control system.",
+    "published_iso": "2026-11-14T06:35:40+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 22
+   },
+   {
+    "id": "8e5422c7b6",
+    "title": "Google now lets people connect Gemini to their bank accounts",
+    "url": "https://www.engadget.com/2316384/google-now-lets-people-connect-gemini-to-their-bank-accounts/",
+    "source": "Engadget",
+    "section": "Technology",
+    "section_id": "technology",
+    "tag": "",
+    "dek": "This is for spending analysis and not for making purchases.",
+    "published_iso": "2026-11-13T19:15:32+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 23
+   },
+   {
+    "id": "c407c87afb",
+    "title": "This young startup wants to power floating data centers with the ocean’s heat, and investors are already on board",
+    "url": "https://techcrunch.com/2026/11/13/this-young-startup-wants-to-power-floating-data-centers-with-the-oceans-heat-and-investors-are-already-on-board/",
+    "source": "TechCrunch",
+    "section": "Technology",
+    "section_id": "technology",
+    "tag": "",
+    "dek": "Drogue is harvesting heat from the ocean to power data centers on floating vessels. The first prototype should be bobbing around the ocean, crunching bits, in less than two years.",
+    "published_iso": "2026-11-13T20:07:24+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 24
+   },
+   {
+    "id": "d539edcfb8",
+    "title": "Bitdefender Antivirus Plus Review: Undercutting the Competition",
+    "url": "https://www.wired.com/review/bitdefender-antivirus-plus/",
+    "source": "Wired",
+    "section": "Technology",
+    "section_id": "technology",
+    "tag": "",
+    "dek": "It’s not promoted very much, but Bitdefender’s stand-alone Antivirus Plus software is both effective and affordable.",
+    "published_iso": "2026-11-13T10:00:00+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 25
+   },
+   {
+    "id": "af22ab90f6",
+    "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
+    "url": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "section": "Markets",
+    "section_id": "markets_news",
+    "tag": "Nvidia",
+    "dek": "At first, it looked like Nvidia’s pain might be the rest of the chip sector’s gain. But now, investors aren’t so sure.",
+    "published_iso": "2026-11-13T21:10:00+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 26
+   },
+   {
+    "id": "f8e3a26700",
+    "title": "AI risks are the biggest threat to the financial system, Fed survey finds",
+    "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+    "source": "CNBC",
+    "section": "Markets",
+    "section_id": "markets_news",
+    "tag": "",
+    "dek": "The report comes with Wall Street on edge over high-flying AI hyperscalers, while communities are on alert for the rapid spread of data centers.",
+    "published_iso": "2026-11-13T21:18:30+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 27
+   },
+   {
+    "id": "0cc207e01d",
+    "title": "FAA lifts rare nationwide ground stop on flights; air travel may take days to recover",
+    "url": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "section": "Markets",
+    "section_id": "markets_news",
+    "tag": "",
+    "dek": "Homeland Security Secretary Mullin said that there was ‘zero evidence’ of cyberattack as fewer flights amid fuel-cost surge may hamper rebookings.",
+    "published_iso": "2026-11-14T02:42:00+00:00",
+    "coverage": 2,
+    "related": [],
+    "is_lead": false,
+    "order": 28
+   },
+   {
+    "id": "d8c2d586f2",
+    "title": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
+    "url": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
+    "source": "CNBC",
+    "section": "Markets",
+    "section_id": "markets_news",
+    "tag": "",
+    "dek": "The policymaker expressed concern about the latest inflation data, telling CNBC that the central bank likely will need to take action.",
+    "published_iso": "2026-11-13T14:22:07+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 29
+   },
+   {
+    "id": "5b165154ff",
+    "title": "Raja Salman Siapkan Umrah Gratis Buat 1.000 Orang, Warga RI Bisa Dapat",
+    "url": "https://www.cnbcindonesia.com/lifestyle/20261114114346-33-785212/raja-salman-siapkan-umrah-gratis-buat-1000-orang-warga-ri-bisa-dapat",
+    "source": "CNBC Indonesia",
+    "section": "Markets",
+    "section_id": "markets_news",
+    "tag": "",
+    "dek": "Raja Arab Saudi Salman bin Abdulaziz Al Saud memberikan program pembiayaan umrah bagi 1.000 jemaah laki-laki dan perempuan dari berbagai negara di dunia",
+    "published_iso": "2026-11-14T07:15:02+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 30
+   },
+   {
+    "id": "9f871e6f50",
+    "title": "Video: Efek MSCI - Gibran Mundur ke Prospek Investasi dan IPO Saham RI",
+    "url": "https://www.cnbcindonesia.com/market/20261112145645-19-784694/video-efek-msci--gibran-mundur-ke-prospek-investasi-ipo-saham-ri",
+    "source": "CNBC Indonesia",
+    "section": "Markets",
+    "section_id": "markets_news",
+    "tag": "",
+    "dek": "Bos Sekuritas Ungkap Efek MSCI - Gibran Mundur ke Prospek Investasi - IPO Saham RI",
+    "published_iso": "2026-11-14T07:00:15+00:00",
+    "coverage": 1,
+    "related": [],
+    "is_lead": false,
+    "order": 31
+   }
+  ],
+  "posts": [],
+  "bot": {
+   "/start": "<b>Morrow Brief</b>\nTech and markets, read across the outlets. One brief a day, every story sourced.\n\n/today the five stories that matter\n/ai AI & Chips\n/bigtech Big US Tech\n/robotics Robotics\n/space Space & Aircraft\n/tech Technology\n/markets Markets\n/tape index moves\n/sources outlets in today's edition\n/find <i>word</i> search today's stories\n/about how this works",
+   "/help": "<b>Morrow Brief</b>\nTech and markets, read across the outlets. One brief a day, every story sourced.\n\n/today the five stories that matter\n/ai AI & Chips\n/bigtech Big US Tech\n/robotics Robotics\n/space Space & Aircraft\n/tech Technology\n/markets Markets\n/tape index moves\n/sources outlets in today's edition\n/find <i>word</i> search today's stories\n/about how this works",
+   "/today": "<b>Morrow Brief · Sat 14 Nov</b>\n\n• <a href=\"https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship\">SpaceX launches Starship on ambitious 22-hour Flight 15 test, but aborts booster 'chopsticks' catch (video)</a> (Space.com +4)\n• <a href=\"https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html\">Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion</a> (CNBC +2)\n• <a href=\"https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet\">ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you</a> (The Verge +2)\n• <a href=\"https://www.wired.com/story/outlook-went-down-microsoft-may-owe-you-money/\">Outlook Went Down? Microsoft May Owe You Money</a> (Wired +1)\n• <a href=\"https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/\">Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say</a> (TechCrunch +1)\n\nMarkets: S&amp;P 500 ▼0.40% · Nasdaq ▼0.91% · Dow Jones ▲0.10% · IHSG (Jakarta) ▲1.78%",
+   "/about": "<b>Morrow Brief</b> is built from Morrow, a daily paper that reads hundreds of headlines and merges coverage of the same story across outlets. Selection is automated: the most widely reported stories come first. Nothing is rewritten; headlines belong to their outlets and every story links to them. Not financial advice.\n\n<a href=\"https://juw12.github.io/morrow/\">Full edition</a>",
+   "/ai": "<b>AI &amp; Chips · Sat 14 Nov</b>\n\n• <a href=\"https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet\">ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you</a> (The Verge +2)\n• <a href=\"https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/\">Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say</a> (TechCrunch +1)\n• <a href=\"https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/\">Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!</a> (TechCrunch +1)\n• <a href=\"https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow\">Let’s talk about Jensen Huang’s many affairs!</a> (The Verge +1)\n• <a href=\"https://spectrum.ieee.org/microcredentials-trustworthy-ai\">How Microcredentials Help Engineers Build Trustworthy AI</a> (IEEE Spectrum)",
+   "/bigtech": "<b>Big US Tech · Sat 14 Nov</b>\n\n• <a href=\"https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html\">Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion</a> (CNBC +2)\n• <a href=\"https://www.wired.com/story/outlook-went-down-microsoft-may-owe-you-money/\">Outlook Went Down? Microsoft May Owe You Money</a> (Wired +1)\n• <a href=\"https://www.cnbc.com/2026/11/14/nvidia-jensen-huang-ceo-succession-risk.html\">Analysis: Companies love a ‘rockstar’ CEO. Until they depend on one</a> (CNBC)\n• <a href=\"https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/\">Microsoft’s global outage may be worse than Amazon's or CrowdStrike's, expert says</a> (Ars Technica)\n• <a href=\"https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/\">Starship flight 15 powers to orbit—setting up a possible catch on Saturday</a> (Ars Technica)\n• <a href=\"https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search\">Amazon has a plan to index the world’s online shopping data</a> (The Verge)",
+   "/robotics": "<b>Robotics · Sat 14 Nov</b>\n\n• <a href=\"https://spectrum.ieee.org/video-friday-moon-rover-promise\">Video Friday: NASA PROMISEs a New Moon Rover</a> (IEEE Spectrum)\n• <a href=\"https://www.therobotreport.com/narwal-builds-robot-vacuums-to-serve-regional-needs/\">Narwal builds robot vacuums to serve regional needs</a> (The Robot Report)\n• <a href=\"https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/\">Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial</a> (The Robot Report)",
+   "/space": "<b>Space &amp; Aircraft · Sat 14 Nov</b>\n\n• <a href=\"https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship\">SpaceX launches Starship on ambitious 22-hour Flight 15 test, but aborts booster 'chopsticks' catch (video)</a> (Space.com +4)\n• <a href=\"https://www.space.com/space-exploration/on-this-day-in-space-november-13-2026\">On this day in space! Nov. 13, 1971: NASA's Mariner 9 becomes 1st spacecraft to orbit Mars, revealing close looks at…</a> (Space.com)\n• <a href=\"https://spaceflightnow.com/2026/11/13/ulas-vulcan-rocket-plans-return-to-flight-with-launch-of-40-leo-satellites-for-amazon/\">ULA delays to Saturday Vulcan rocket launch of 40 Leo satellites for Amazon</a> (Spaceflight Now)\n• <a href=\"https://www.teslarati.com/spacex-starship-flight-15-double-catch/\">SpaceX Starship is going for a catch that could change spaceflight forever</a> (Teslarati)\n• <a href=\"https://www.nasa.gov/image-article/outbursts-from-a-massive-star/\">Outbursts from a Massive Star</a> (NASA)\n• <a href=\"https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/\">Gemini Astronaut Photos Inspired Early Earth Observation Program</a> (NASA)",
+   "/tech": "<b>Technology · Sat 14 Nov</b>\n\n• <a href=\"https://www.wired.com/story/klook-promo-code/\">Klook Promo Code: 20% Off November 2026</a> (Wired)\n• <a href=\"https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/\">Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price</a> (TechCrunch)\n• <a href=\"https://www.engadget.com/2316792/faa-flights-resume-ground-stop-old-equipment/\">FAA allows flights to resume after hours-long ground stop across the US</a> (Engadget)\n• <a href=\"https://www.engadget.com/2316384/google-now-lets-people-connect-gemini-to-their-bank-accounts/\">Google now lets people connect Gemini to their bank accounts</a> (Engadget)\n• <a href=\"https://techcrunch.com/2026/11/13/this-young-startup-wants-to-power-floating-data-centers-with-the-oceans-heat-and-investors-are-already-on-board/\">This young startup wants to power floating data centers with the ocean’s heat, and investors are already on board</a> (TechCrunch)\n• <a href=\"https://www.wired.com/review/bitdefender-antivirus-plus/\">Bitdefender Antivirus Plus Review: Undercutting the Competition</a> (Wired)",
+   "/markets": "<b>Markets · Sat 14 Nov</b>\n\n• <a href=\"https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories\">FAA lifts rare nationwide ground stop on flights; air travel may take days to recover</a> (MarketWatch +1)\n• <a href=\"https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories\">AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang</a> (MarketWatch)\n• <a href=\"https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html\">AI risks are the biggest threat to the financial system, Fed survey finds</a> (CNBC)\n• <a href=\"https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html\">Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation</a> (CNBC)\n• <a href=\"https://www.cnbcindonesia.com/lifestyle/20261114114346-33-785212/raja-salman-siapkan-umrah-gratis-buat-1000-orang-warga-ri-bisa-dapat\">Raja Salman Siapkan Umrah Gratis Buat 1.000 Orang, Warga RI Bisa Dapat</a> (CNBC Indonesia)\n• <a href=\"https://www.cnbcindonesia.com/market/20261112145645-19-784694/video-efek-msci--gibran-mundur-ke-prospek-investasi-ipo-saham-ri\">Video: Efek MSCI - Gibran Mundur ke Prospek Investasi dan IPO Saham RI</a> (CNBC Indonesia)",
+   "/tape": "<b>Tape · Sat 14 Nov</b>\n\nS&amp;P 500  7,561.67  ▼0.40%\nNasdaq  25,136.27  ▼0.91%\nDow Jones  52,347.55  ▲0.10%\nIHSG (Jakarta)  5,344.41  ▲1.78%\nGold (XAU)  3,886.30  ▲0.03%\n\nNot financial advice.",
+   "/sources": "<b>32 stories from 15 outlets · Sat 14 Nov</b>\n\nArs Technica, CNBC, CNBC Indonesia, Engadget, IEEE Spectrum, MarketWatch, NASA, NASASpaceflight, Space.com, Spaceflight Now, TechCrunch, Teslarati, The Robot Report, The Verge, Wired"
+  }
+ },
+ "cases": [
+  {
+   "text": "/start",
+   "private": true,
+   "reply": "<b>Morrow Brief</b>\nTech and markets, read across the outlets. One brief a day, every story sourced.\n\n/today the five stories that matter\n/ai AI & Chips\n/bigtech Big US Tech\n/robotics Robotics\n/space Space & Aircraft\n/tech Technology\n/markets Markets\n/tape index moves\n/sources outlets in today's edition\n/find <i>word</i> search today's stories\n/about how this works"
+  },
+  {
+   "text": "/help",
+   "private": true,
+   "reply": "<b>Morrow Brief</b>\nTech and markets, read across the outlets. One brief a day, every story sourced.\n\n/today the five stories that matter\n/ai AI & Chips\n/bigtech Big US Tech\n/robotics Robotics\n/space Space & Aircraft\n/tech Technology\n/markets Markets\n/tape index moves\n/sources outlets in today's edition\n/find <i>word</i> search today's stories\n/about how this works"
+  },
+  {
+   "text": "/today",
+   "private": true,
+   "reply": "<b>Morrow Brief · Sat 14 Nov</b>\n\n• <a href=\"https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship\">SpaceX launches Starship on ambitious 22-hour Flight 15 test, but aborts booster 'chopsticks' catch (video)</a> (Space.com +4)\n• <a href=\"https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html\">Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion</a> (CNBC +2)\n• <a href=\"https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet\">ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you</a> (The Verge +2)\n• <a href=\"https://www.wired.com/story/outlook-went-down-microsoft-may-owe-you-money/\">Outlook Went Down? Microsoft May Owe You Money</a> (Wired +1)\n• <a href=\"https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/\">Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say</a> (TechCrunch +1)\n\nMarkets: S&amp;P 500 ▼0.40% · Nasdaq ▼0.91% · Dow Jones ▲0.10% · IHSG (Jakarta) ▲1.78%"
+  },
+  {
+   "text": "/TODAY",
+   "private": true,
+   "reply": "<b>Morrow Brief · Sat 14 Nov</b>\n\n• <a href=\"https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship\">SpaceX launches Starship on ambitious 22-hour Flight 15 test, but aborts booster 'chopsticks' catch (video)</a> (Space.com +4)\n• <a href=\"https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html\">Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion</a> (CNBC +2)\n• <a href=\"https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet\">ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you</a> (The Verge +2)\n• <a href=\"https://www.wired.com/story/outlook-went-down-microsoft-may-owe-you-money/\">Outlook Went Down? Microsoft May Owe You Money</a> (Wired +1)\n• <a href=\"https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/\">Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say</a> (TechCrunch +1)\n\nMarkets: S&amp;P 500 ▼0.40% · Nasdaq ▼0.91% · Dow Jones ▲0.10% · IHSG (Jakarta) ▲1.78%"
+  },
+  {
+   "text": "/today@MorrowBriefBot",
+   "private": false,
+   "reply": "<b>Morrow Brief · Sat 14 Nov</b>\n\n• <a href=\"https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship\">SpaceX launches Starship on ambitious 22-hour Flight 15 test, but aborts booster 'chopsticks' catch (video)</a> (Space.com +4)\n• <a href=\"https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html\">Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion</a> (CNBC +2)\n• <a href=\"https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet\">ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you</a> (The Verge +2)\n• <a href=\"https://www.wired.com/story/outlook-went-down-microsoft-may-owe-you-money/\">Outlook Went Down? Microsoft May Owe You Money</a> (Wired +1)\n• <a href=\"https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/\">Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say</a> (TechCrunch +1)\n\nMarkets: S&amp;P 500 ▼0.40% · Nasdaq ▼0.91% · Dow Jones ▲0.10% · IHSG (Jakarta) ▲1.78%"
+  },
+  {
+   "text": "/ai",
+   "private": true,
+   "reply": "<b>AI &amp; Chips · Sat 14 Nov</b>\n\n• <a href=\"https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet\">ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you</a> (The Verge +2)\n• <a href=\"https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/\">Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say</a> (TechCrunch +1)\n• <a href=\"https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/\">Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!</a> (TechCrunch +1)\n• <a href=\"https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow\">Let’s talk about Jensen Huang’s many affairs!</a> (The Verge +1)\n• <a href=\"https://spectrum.ieee.org/microcredentials-trustworthy-ai\">How Microcredentials Help Engineers Build Trustworthy AI</a> (IEEE Spectrum)"
+  },
+  {
+   "text": "/bigtech",
+   "private": true,
+   "reply": "<b>Big US Tech · Sat 14 Nov</b>\n\n• <a href=\"https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html\">Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion</a> (CNBC +2)\n• <a href=\"https://www.wired.com/story/outlook-went-down-microsoft-may-owe-you-money/\">Outlook Went Down? Microsoft May Owe You Money</a> (Wired +1)\n• <a href=\"https://www.cnbc.com/2026/11/14/nvidia-jensen-huang-ceo-succession-risk.html\">Analysis: Companies love a ‘rockstar’ CEO. Until they depend on one</a> (CNBC)\n• <a href=\"https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/\">Microsoft’s global outage may be worse than Amazon's or CrowdStrike's, expert says</a> (Ars Technica)\n• <a href=\"https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/\">Starship flight 15 powers to orbit—setting up a possible catch on Saturday</a> (Ars Technica)\n• <a href=\"https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search\">Amazon has a plan to index the world’s online shopping data</a> (The Verge)"
+  },
+  {
+   "text": "/robotics",
+   "private": true,
+   "reply": "<b>Robotics · Sat 14 Nov</b>\n\n• <a href=\"https://spectrum.ieee.org/video-friday-moon-rover-promise\">Video Friday: NASA PROMISEs a New Moon Rover</a> (IEEE Spectrum)\n• <a href=\"https://www.therobotreport.com/narwal-builds-robot-vacuums-to-serve-regional-needs/\">Narwal builds robot vacuums to serve regional needs</a> (The Robot Report)\n• <a href=\"https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/\">Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial</a> (The Robot Report)"
+  },
+  {
+   "text": "/space",
+   "private": true,
+   "reply": "<b>Space &amp; Aircraft · Sat 14 Nov</b>\n\n• <a href=\"https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship\">SpaceX launches Starship on ambitious 22-hour Flight 15 test, but aborts booster 'chopsticks' catch (video)</a> (Space.com +4)\n• <a href=\"https://www.space.com/space-exploration/on-this-day-in-space-november-13-2026\">On this day in space! Nov. 13, 1971: NASA's Mariner 9 becomes 1st spacecraft to orbit Mars, revealing close looks at…</a> (Space.com)\n• <a href=\"https://spaceflightnow.com/2026/11/13/ulas-vulcan-rocket-plans-return-to-flight-with-launch-of-40-leo-satellites-for-amazon/\">ULA delays to Saturday Vulcan rocket launch of 40 Leo satellites for Amazon</a> (Spaceflight Now)\n• <a href=\"https://www.teslarati.com/spacex-starship-flight-15-double-catch/\">SpaceX Starship is going for a catch that could change spaceflight forever</a> (Teslarati)\n• <a href=\"https://www.nasa.gov/image-article/outbursts-from-a-massive-star/\">Outbursts from a Massive Star</a> (NASA)\n• <a href=\"https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/\">Gemini Astronaut Photos Inspired Early Earth Observation Program</a> (NASA)"
+  },
+  {
+   "text": "/tech",
+   "private": true,
+   "reply": "<b>Technology · Sat 14 Nov</b>\n\n• <a href=\"https://www.wired.com/story/klook-promo-code/\">Klook Promo Code: 20% Off November 2026</a> (Wired)\n• <a href=\"https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/\">Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price</a> (TechCrunch)\n• <a href=\"https://www.engadget.com/2316792/faa-flights-resume-ground-stop-old-equipment/\">FAA allows flights to resume after hours-long ground stop across the US</a> (Engadget)\n• <a href=\"https://www.engadget.com/2316384/google-now-lets-people-connect-gemini-to-their-bank-accounts/\">Google now lets people connect Gemini to their bank accounts</a> (Engadget)\n• <a href=\"https://techcrunch.com/2026/11/13/this-young-startup-wants-to-power-floating-data-centers-with-the-oceans-heat-and-investors-are-already-on-board/\">This young startup wants to power floating data centers with the ocean’s heat, and investors are already on board</a> (TechCrunch)\n• <a href=\"https://www.wired.com/review/bitdefender-antivirus-plus/\">Bitdefender Antivirus Plus Review: Undercutting the Competition</a> (Wired)"
+  },
+  {
+   "text": "/markets",
+   "private": true,
+   "reply": "<b>Markets · Sat 14 Nov</b>\n\n• <a href=\"https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories\">FAA lifts rare nationwide ground stop on flights; air travel may take days to recover</a> (MarketWatch +1)\n• <a href=\"https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories\">AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang</a> (MarketWatch)\n• <a href=\"https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html\">AI risks are the biggest threat to the financial system, Fed survey finds</a> (CNBC)\n• <a href=\"https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html\">Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation</a> (CNBC)\n• <a href=\"https://www.cnbcindonesia.com/lifestyle/20261114114346-33-785212/raja-salman-siapkan-umrah-gratis-buat-1000-orang-warga-ri-bisa-dapat\">Raja Salman Siapkan Umrah Gratis Buat 1.000 Orang, Warga RI Bisa Dapat</a> (CNBC Indonesia)\n• <a href=\"https://www.cnbcindonesia.com/market/20261112145645-19-784694/video-efek-msci--gibran-mundur-ke-prospek-investasi-ipo-saham-ri\">Video: Efek MSCI - Gibran Mundur ke Prospek Investasi dan IPO Saham RI</a> (CNBC Indonesia)"
+  },
+  {
+   "text": "/tape",
+   "private": true,
+   "reply": "<b>Tape · Sat 14 Nov</b>\n\nS&amp;P 500  7,561.67  ▼0.40%\nNasdaq  25,136.27  ▼0.91%\nDow Jones  52,347.55  ▲0.10%\nIHSG (Jakarta)  5,344.41  ▲1.78%\nGold (XAU)  3,886.30  ▲0.03%\n\nNot financial advice."
+  },
+  {
+   "text": "/sources",
+   "private": true,
+   "reply": "<b>32 stories from 15 outlets · Sat 14 Nov</b>\n\nArs Technica, CNBC, CNBC Indonesia, Engadget, IEEE Spectrum, MarketWatch, NASA, NASASpaceflight, Space.com, Spaceflight Now, TechCrunch, Teslarati, The Robot Report, The Verge, Wired"
+  },
+  {
+   "text": "/about",
+   "private": true,
+   "reply": "<b>Morrow Brief</b> is built from Morrow, a daily paper that reads hundreds of headlines and merges coverage of the same story across outlets. Selection is automated: the most widely reported stories come first. Nothing is rewritten; headlines belong to their outlets and every story links to them. Not financial advice.\n\n<a href=\"https://juw12.github.io/morrow/\">Full edition</a>"
+  },
+  {
+   "text": "/find nvidia",
+   "private": true,
+   "reply": "<b>6 stories on “nvidia”</b>\n\n• <a href=\"https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html\">Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion</a> (CNBC +2)\n• <a href=\"https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/\">Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say</a> (TechCrunch +1)\n• <a href=\"https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/\">Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!</a> (TechCrunch +1)\n• <a href=\"https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow\">Let’s talk about Jensen Huang’s many affairs!</a> (The Verge +1)\n• <a href=\"https://www.cnbc.com/2026/11/14/nvidia-jensen-huang-ceo-succession-risk.html\">Analysis: Companies love a ‘rockstar’ CEO. Until they depend on one</a> (CNBC)\n• <a href=\"https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories\">AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang</a> (MarketWatch)"
+  },
+  {
+   "text": "/find@MorrowBriefBot  SpaceX starship ",
+   "private": false,
+   "reply": "<b>2 stories on “SpaceX starship”</b>\n\n• <a href=\"https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship\">SpaceX launches Starship on ambitious 22-hour Flight 15 test, but aborts booster 'chopsticks' catch (video)</a> (Space.com +4)\n• <a href=\"https://www.teslarati.com/spacex-starship-flight-15-double-catch/\">SpaceX Starship is going for a catch that could change spaceflight forever</a> (Teslarati)"
+  },
+  {
+   "text": "/find",
+   "private": true,
+   "reply": "Send /find and a word, for example: /find nvidia"
+  },
+  {
+   "text": "/find a",
+   "private": true,
+   "reply": "Send /find and a word, for example: /find nvidia"
+  },
+  {
+   "text": "/find zzzzqqq <b>",
+   "private": true,
+   "reply": "Nothing on “zzzzqqq &lt;b&gt;” in today's edition. Try /today."
+  },
+  {
+   "text": "/unknown",
+   "private": true,
+   "reply": "<b>Morrow Brief</b>\nTech and markets, read across the outlets. One brief a day, every story sourced.\n\n/today the five stories that matter\n/ai AI & Chips\n/bigtech Big US Tech\n/robotics Robotics\n/space Space & Aircraft\n/tech Technology\n/markets Markets\n/tape index moves\n/sources outlets in today's edition\n/find <i>word</i> search today's stories\n/about how this works"
+  },
+  {
+   "text": "hello there",
+   "private": true,
+   "reply": "<b>Morrow Brief</b>\nTech and markets, read across the outlets. One brief a day, every story sourced.\n\n/today the five stories that matter\n/ai AI & Chips\n/bigtech Big US Tech\n/robotics Robotics\n/space Space & Aircraft\n/tech Technology\n/markets Markets\n/tape index moves\n/sources outlets in today's edition\n/find <i>word</i> search today's stories\n/about how this works"
+  },
+  {
+   "text": "hello there",
+   "private": false,
+   "reply": null
+  },
+  {
+   "text": "",
+   "private": true,
+   "reply": null
+  }
+ ]
+}
